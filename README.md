@@ -2,7 +2,9 @@
 
 [在线浏览 67 款三维模型](https://delta-models.pages.dev/) · [下载完整模型包](https://github.com/badDevBuild/delta-models/releases/tag/model-pack-v1)
 
-独立制作的三维外观模型收藏馆，使用 Three.js 展示 67 款非功能性缩比装饰模型。网页支持旋转、缩放、三角网格、外观组件拆装及可选配件切换。
+独立制作的三维外观模型收藏馆，使用 Three.js 展示 67 款非功能性缩比装饰模型。网页支持旋转、缩放、三角网格、外观组件拆装及可选配件切换，并为每款模型提供简短的游戏玩法与选弹提示。
+
+玩法提示参考标明日期的官方公告及注明来源的社区资料，打法建议由本项目编写。这些资料不代表当前国服数值。具体可用弹种及数值请以游戏客户端为准；每款的资料链接可在网页的「资料从哪里来？」中查看。
 
 本项目与《三角洲行动》游戏的运营方没有隶属或背书关系。游戏名称、商标和原始画面属于各自权利人。模型按视觉参考重新建造，不包含游戏原始网格、真实内部机构或可用武器接口。模型尚未完成实机打印验证。
 
@@ -17,6 +19,7 @@
 
 - `web/public/models/`：67 款供网页展示的 GLB 模型。
 - `web/public/previews/`：目录缩略图。
+- `web/public/game-guides.json`：逐款玩法提示、适用范围和资料链接。
 - `scripts/`、`config/`：建模、资源整理和验证代码。
 - [model-pack-v1 发布包](https://github.com/badDevBuild/delta-models/releases/tag/model-pack-v1)：每款打印文件、P1S 切片工程和 Blender 可编辑母版，共 201 个下载文件。
 - `release-assets.json`：发布包文件名、大小与 SHA-256，供下载后核对。
@@ -33,7 +36,7 @@ npm ci
 npm run dev
 ```
 
-打开 `http://127.0.0.1:5174/`。运行 `npm test` 检查模型目录与文件索引，`npm run build` 生成静态站点。
+打开 `http://127.0.0.1:5174/`。运行 `npm test` 检查模型目录、玩法提示覆盖与文件索引，`npm run build` 生成静态站点。
 
 ## Cloudflare Pages
 

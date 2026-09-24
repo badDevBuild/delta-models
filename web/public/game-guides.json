@@ -14,10 +14,1808 @@
       },
       "basis": "枪用什么子弹、子弹等级，查自 Garena 官方。怎么打是我们的建议。国服现在的数据还没核对。",
       "sources": [
-        {"title": "Garena 官方 M7 武器介绍", "url": "https://deltaforce.garena.com/en/"},
-        {"title": "Garena 2026 年 2 月平衡公告", "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"},
-        {"title": "Garena 2026 年 6 月武器与弹药公告", "url": "https://deltaforce.garena.com/en/news/all/2MX7J4"},
-        {"title": "Garena 烽火地带弹药与护甲说明", "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"}
+        {
+          "title": "Garena 官方 M7 武器介绍",
+          "url": "https://deltaforce.garena.com/en/"
+        },
+        {
+          "title": "Garena 2026 年 2 月平衡公告",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 2026 年 6 月武器与弹药公告",
+          "url": "https://deltaforce.garena.com/en/news/all/2MX7J4"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "akm",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "每发打得重，适合中距离稳着打。",
+      "tactics": "躲在墙或箱子后瞄准身体，打几发就停；别一直扫。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 7.62×39 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：AKM",
+          "url": "https://deltaforcedb.com/weapon/akm"
+        },
+        {
+          "title": "Garena 2025-07 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/V6J38U"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "p90",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "可换长弓枪管，左右晃动更小；但开火更慢。",
+      "tactics": "守走廊时先开镜，瞄准身体短扫；远处别硬拼。",
+      "ammo": {
+        "advice": "带 5.7×28 毫米弹；打 4 级甲就选 4 级或更高穿透。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena P90 长弓枪管公告",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 P90 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475450"
+        }
+      ]
+    },
+    {
+      "modelId": "awm",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "远处单发伤害高，适合守长路。",
+      "tactics": "躲好、站稳、再开镜；一枪没中就先缩回掩体。",
+      "ammo": {
+        "advice": "这枪用专属 .338 子弹；先确认备弹够用再进场。",
+        "note": "国服当前弹药获取方式未在客户端复核。"
+      },
+      "basis": "国服社区页与日服 GameWith 均列 .338；后者称子弹仅供 AWM 使用。国服当前版本待核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：AWM",
+          "url": "https://orzice.com/v/info/406"
+        },
+        {
+          "title": "日服 GameWith：AWM 与专属子弹",
+          "url": "https://gamewith.jp/deltaforce/475439"
+        },
+        {
+          "title": "Garena 旧版 AWM 调整",
+          "url": "https://deltaforce.garena.com/en/news/all/H3T8DS"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "m870",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "近处一发一发打，适合守门口。",
+      "tactics": "等人靠近再打；每打一发都留意下一发的间隔。",
+      "ammo": {
+        "advice": "带 12 号霰弹；想打护甲还要看穿透等级。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena M870 枪械公告",
+          "url": "https://deltaforce.garena.com/en/news/all/QKFAHQ"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 M870 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475880"
+        }
+      ]
+    },
+    {
+      "modelId": "g18",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "能自动连发，近处救急很快。",
+      "tactics": "主枪来不及换弹时拿出来；短按几下，别一扫到底。",
+      "ammo": {
+        "advice": "选 9×19 子弹；要打护甲，先看穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和全自动模式据国服社区物品页；近处救急是玩法建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：G18",
+          "url": "https://orzice.com/v/info/262"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "m4a1",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "射速快，近处和中距离都能用。",
+      "tactics": "先开镜再过拐角，对准身体打几发就停。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.56×45 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：M4A1",
+          "url": "https://deltaforcedb.com/weapon/m4a1"
+        },
+        {
+          "title": "Garena 2025-03 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/announcement/WDVBS5"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "scarh",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "每发伤害高，适合中距离打。",
+      "tactics": "瞄准身体打几发，打完躲回墙或箱子后。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 7.62×51 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：SCAR-H",
+          "url": "https://deltaforcedb.com/weapon/scar-h"
+        },
+        {
+          "title": "Garena 2026-02 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "mp5",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "短小，适合门口和走廊里的近距离交火。",
+      "tactics": "先听脚步，守住门边；看见人再开镜短扫。",
+      "ammo": {
+        "advice": "带 9×19 毫米弹；进房前按预计护甲选穿透等级。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena MP5 装备券公告",
+          "url": "https://deltaforce.garena.com/en/news/all/YVRATP"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 MP5 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475449"
+        }
+      ]
+    },
+    {
+      "modelId": "vector",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "紧凑，适合贴近后快速交火。",
+      "tactics": "绕到近处再打；第一轮没打中就躲回掩体。",
+      "ammo": {
+        "advice": "带 .45 ACP 弹，多备一组；打甲先看穿透等级。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena Vector 武器与调整公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/U6RKQ9"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 VECTOR 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475451"
+        }
+      ]
+    },
+    {
+      "modelId": "svd",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "能连续点射，一枪没中还可以补第二枪。",
+      "tactics": "守中距离的路口，瞄好再一枪一枪点。",
+      "ammo": {
+        "advice": "选 7.62×54R 子弹；打厚甲时选更高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "枪和口径据国服社区物品页；海外官方曾调整 SVD 伤害与稳定性，现值待核。打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：SVD",
+          "url": "https://orzice.com/v/info/395"
+        },
+        {
+          "title": "Garena SVD 稳定性调整",
+          "url": "https://deltaforce.garena.com/en/news/all/V6J38U"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "m249",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "可装专属握把，让连续射击更稳。",
+      "tactics": "守住一条通道，先开镜再连射；换弹时躲回掩体。",
+      "ammo": {
+        "advice": "带 5.56×45 毫米弹，多备一组；等级按目标护甲选。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena M249 专属握把公告",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 M249 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475445"
+        }
+      ]
+    },
+    {
+      "modelId": "ak12",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "能切连发模式，中距离更容易控制节奏。",
+      "tactics": "远一点就打一小串、停一下，准星回正再打。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.45×39 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：AK-12",
+          "url": "https://deltaforcedb.com/weapon/ak-12"
+        },
+        {
+          "title": "Garena 2026-06 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/2MX7J4"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "aug",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "连射比较稳，适合看住中距离通道。",
+      "tactics": "躲在墙或箱子后守路口，不要跑到对手面前。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.56×45 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：AUG",
+          "url": "https://deltaforcedb.com/weapon/aug"
+        },
+        {
+          "title": "Garena 2025-03 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/announcement/WDVBS5"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "asval",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "有消音效果，近距离连射很快。",
+      "tactics": "靠近再打，先瞄身体；离得远就不要一直打。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 9×39 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：AS-VAL",
+          "url": "https://deltaforcedb.com/weapon/as-val"
+        },
+        {
+          "title": "Garena 2026-04 新赛季公告",
+          "url": "https://deltaforce.garena.com/en/news/all/YVRATP"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "k416",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "射速很快，近中距离打起来灵活。",
+      "tactics": "靠着墙或箱子推进，看到人打几发就停。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.56×45 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：K416",
+          "url": "https://deltaforcedb.com/weapon/k416"
+        },
+        {
+          "title": "Garena 2025-03 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/announcement/WDVBS5"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "mp7",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "旧公告曾加强开头几发的腰射表现。",
+      "tactics": "在房间里打短距离；人一远就开镜，别一直扫。",
+      "ammo": {
+        "advice": "带 4.6×30 毫米弹；打 4 级甲时选同级或更高穿透。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena MP7 腰射调整公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/W9PGYU"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 MP7 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475452"
+        }
+      ]
+    },
+    {
+      "modelId": "uzi",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "枪身短，适合狭窄转角。",
+      "tactics": "贴着掩体走，转角遇人再打；开阔地别硬追。",
+      "ammo": {
+        "advice": "带 9×19 毫米弹；见 4 级甲先确认穿透等级够。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena S11 UZI 武器公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/NDH3YX"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 UZI 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475447"
+        }
+      ]
+    },
+    {
+      "modelId": "bizon",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "圆筒弹匣醒目，适合连续守住近处入口。",
+      "tactics": "守门时别急着冲出去；打完一人先看第二个角。",
+      "ammo": {
+        "advice": "带 9×19 毫米弹，多备一组；等级按预计护甲选。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena Bizon 烽火地带活动公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/X29S8P"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 BIZON 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475448"
+        }
+      ]
+    },
+    {
+      "modelId": "thompson",
+      "region": "国际服 S11 资料",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "可用 .45 口径子弹，适合近处连续交火。",
+      "tactics": "先靠近掩体，再瞄准身体；别站在空地里扫。",
+      "ammo": {
+        "advice": "带 .45 ACP 弹；打有护甲的对手，先看穿透等级。",
+        "note": "国际服官方确认 .45 口径；.45 ACP 据日服社区页，国服请核对。"
+      },
+      "basis": "官方确认 .45 口径；.45 ACP 规格由日服社区页补充。打法是编辑建议。",
+      "sources": [
+        {
+          "title": "Garena S11 汤姆逊与 .45 口径公告",
+          "url": "https://deltaforce.garena.com/zh_tw/news/system/KX539B"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 THOMPSON 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/575543"
+        }
+      ]
+    },
+    {
+      "modelId": "m14",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "能单发也能连发，中距离比较灵活。",
+      "tactics": "先用单发点射；被冲到近处，再考虑连发。",
+      "ammo": {
+        "advice": "选 7.62×51 子弹；厚甲对手优先高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径与两种开火模式据国服社区物品页；海外官方曾调整 M14 后坐力和弹匣，现值待核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：M14",
+          "url": "https://orzice.com/v/info/358"
+        },
+        {
+          "title": "Garena S11 M14 弹匣调整",
+          "url": "https://deltaforce.garena.com/en/news/announcement/PA6CZD"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "sks",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "能用 7.62×39 子弹，近中距离点射灵活。",
+      "tactics": "守走廊和路口，一枪一枪点；别乱按。",
+      "ammo": {
+        "advice": "选 7.62×39 子弹；遇厚甲就提高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和单发模式据国服社区物品页；海外官方曾调整 SKS 稳定性，现值待核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：SKS",
+          "url": "https://orzice.com/v/info/523"
+        },
+        {
+          "title": "Garena SKS 稳定性调整",
+          "url": "https://deltaforce.garena.com/en/news/all/V6J38U"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "m1014",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "能连续补第二发，适合近处转角。",
+      "tactics": "守门时先瞄准身体；第一发没打中就立刻补第二发。",
+      "ammo": {
+        "advice": "带 12 号霰弹；连续开火前多备一组。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena M1014 霰弹枪公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/U6RKQ9"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 M1014 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475446"
+        }
+      ]
+    },
+    {
+      "modelId": "desert_eagle",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "一发伤害高，适合近处看准后补枪。",
+      "tactics": "躲着一枪一枪打；弹匣小，别追着乱点。",
+      "ammo": {
+        "advice": "选 .50 AE 子弹；对厚甲先看穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径、单发和弹匣特点据国服社区物品页；海外旧公告不代表现值。打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：沙漠之鹰",
+          "url": "https://orzice.com/v/info/3"
+        },
+        {
+          "title": "Garena 旧版沙漠之鹰调整",
+          "url": "https://deltaforce.garena.com/en/news/all/H3T8DS"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "aks74u",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "近距离转角方便，不用装很多配件。",
+      "tactics": "守近处拐角；遇到远处的人先换位置。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.45×39 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "特点和口径参考 GameWith 社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "GameWith 社区武器页：AKS-74U",
+          "url": "https://gamewith.jp/deltaforce/475456"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "m16a4",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "一次能打三发，容易把节奏控住。",
+      "tactics": "躲在墙或箱子后，打三发再重新瞄。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.56×45 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：M16A4",
+          "url": "https://deltaforcedb.com/weapon/m16a4"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "g3",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "射程较远，适合稳稳地打。",
+      "tactics": "躲在墙或箱子后打远处的人，别贴脸乱扫。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 7.62×51 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：G3",
+          "url": "https://deltaforcedb.com/weapon/g3"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "qbz95",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "中距离比较稳，适合守住一条路。",
+      "tactics": "躲在墙或箱子后，瞄准身体打几发就停。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.8×42 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：QBZ95-1",
+          "url": "https://deltaforcedb.com/weapon/qbz95-1"
+        },
+        {
+          "title": "Garena 2025-03 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/announcement/WDVBS5"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "smg45",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "适合用来守近处的门和转角。",
+      "tactics": "先开镜瞄准身体，打几发停一下；别拿它追远处的人。",
+      "ammo": {
+        "advice": "带 .45 ACP 弹；低级弹打不穿重甲，就换更高穿透。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena SMG-45 武器调整公告",
+          "url": "https://deltaforce.garena.com/en/news/all/JAZGWT"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 SMG45 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475883"
+        }
+      ]
+    },
+    {
+      "modelId": "sr3m",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "枪身紧凑，适合在房间和转角交火。",
+      "tactics": "先在近处开镜；连续扫得不准就停一下再瞄。",
+      "ammo": {
+        "advice": "带 9×39 毫米弹；进室内前先配好能穿预计护甲的等级。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena SR-3M 操控调整公告",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 SR3M 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475884"
+        }
+      ]
+    },
+    {
+      "modelId": "m1911",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "单发伤害不低，适合主枪打空时补几枪。",
+      "tactics": "只打近处看得清的人；没打中就先躲好。",
+      "ammo": {
+        "advice": "选 .45 ACP 子弹；遇厚甲先看穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和单发模式据国服社区物品页；打法是建议，国服现值未复核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：M1911",
+          "url": "https://orzice.com/v/info/168"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "revolver357",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "一发伤害高，适合主枪打空时救急。",
+      "tactics": "六发很快会用完；靠掩体，打准再补。",
+      "ammo": {
+        "advice": "选 .357 Magnum 子弹；打厚甲先看穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径、伤害和弹匣特点据国服社区物品页；海外旧公告不代表现值。打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：.357 左轮",
+          "url": "https://orzice.com/v/info/15"
+        },
+        {
+          "title": "Garena 旧版左轮调整",
+          "url": "https://deltaforce.garena.com/en/news/all/H3T8DS"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "m700",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "远距离瞄得稳，还能按习惯换瞄具。",
+      "tactics": "站稳守远处；打完一发就缩回掩体。",
+      "ammo": {
+        "advice": "选 7.62×51 子弹；穿透等级要够对付预计的护甲。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径与单发方式据国服社区物品页；海外官方旧公告有 M700 调整，现值待核。打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：M700",
+          "url": "https://orzice.com/v/info/225"
+        },
+        {
+          "title": "Garena 旧版 M700 调整",
+          "url": "https://deltaforce.garena.com/en/news/all/H3T8DS"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "sv98",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "能和 SVD 共用子弹，适合远处慢慢瞄。",
+      "tactics": "找有长视野的掩体，站稳打一枪再观察。",
+      "ammo": {
+        "advice": "选 7.62×54R 子弹；厚甲对手要更高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和单发方式据国服社区物品页；海外官方旧公告有 SV-98 调整，现值待核。打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：SV-98",
+          "url": "https://orzice.com/v/info/511"
+        },
+        {
+          "title": "Garena 旧版 SV-98 调整",
+          "url": "https://deltaforce.garena.com/en/news/all/H3T8DS"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "pkm",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "适合守住固定入口并持续给队友掩护。",
+      "tactics": "找好掩体守通道；敌人换方向时别追着长扫。",
+      "ammo": {
+        "advice": "带 7.62×54 系列弹；打 4 级甲选同级或更高穿透。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena PKM 装备券公告",
+          "url": "https://deltaforce.garena.com/en/news/all/RQDZSV"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 PKM 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475879"
+        }
+      ]
+    },
+    {
+      "modelId": "s12k",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "有扩容弹匣可选，近处能连续开火。",
+      "tactics": "守窄门时打短串；敌人离远就换位置。",
+      "ammo": {
+        "advice": "带 12 号霰弹；装扩容弹匣就多备一组。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena S12K 扩容弹匣公告",
+          "url": "https://deltaforce.garena.com/en/news/all/VPYSUD"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 S12K 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475881"
+        }
+      ]
+    },
+    {
+      "modelId": "ar57",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "弹匣能装较多子弹，近中距离打得快。",
+      "tactics": "先瞄准身体连射，打完躲回墙或箱子后。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.7×28 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "口径来自 Garena 官方旧公告；特点参考 GameWith 社区资料。打法是建议，国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Garena 2026-04 新赛季公告",
+          "url": "https://deltaforce.garena.com/en/news/all/YVRATP"
+        },
+        {
+          "title": "GameWith 社区武器页：AR57",
+          "url": "https://gamewith.jp/deltaforce/556174"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "ash12",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "近距离打得重，打护甲也有力。",
+      "tactics": "借墙或箱子靠近，再瞄身体打；别硬追远处的人。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 12.7×55 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "口径和特点参考 GameWith 社区资料；Garena 旧公告有调整记录。打法是建议，国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "GameWith 社区武器页：ASh-12",
+          "url": "https://gamewith.jp/deltaforce/475454"
+        },
+        {
+          "title": "Garena 2026-05 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/BB37SF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "car15",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "开火节奏不快，每发比较好控制。",
+      "tactics": "躲在墙或箱子后点射，别硬打好几个人。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.56×45 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：CAR-15",
+          "url": "https://deltaforcedb.com/weapon/car-15"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "ci19",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "每发伤害较高，适合中距离先看到人再打。",
+      "tactics": "先躲好再开镜，瞄准身体打几发就停。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.8×42 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：CI-19",
+          "url": "https://deltaforcedb.com/weapon/ci-19"
+        },
+        {
+          "title": "Garena 2025-07 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/V6J38U"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "k437",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "近中距离打得快，伤害也不低。",
+      "tactics": "贴墙或箱子探头，瞄准身体打几发就停。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 .300 BLK 子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "口径和特点参考 GameWith 社区资料；Garena 旧公告有调整记录。打法是建议，国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "GameWith 社区武器页：K437",
+          "url": "https://gamewith.jp/deltaforce/494661"
+        },
+        {
+          "title": "Garena 2026-05 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/BB37SF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "kc17",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "能较快打坏对手的防弹衣，中距离好用。",
+      "tactics": "躲在墙或箱子后守路口，瞄准身体打几发就停。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.45×39 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "口径和特点参考 GameWith 社区资料；Garena 旧公告有调整记录。打法是建议，国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "GameWith 社区武器页：KC17",
+          "url": "https://gamewith.jp/deltaforce/507960"
+        },
+        {
+          "title": "Garena 2026-02 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "mcxlt",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "装上隔热罩后，连射能更快。",
+      "tactics": "看到人先开镜打几发就停；别追着远处的人扫。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 .300 BLK 子弹。",
+        "note": "国服当前弹名、价格和配件效果还没核实。"
+      },
+      "basis": "口径来自 Garena 官方旧公告；特点参考 GameWith 社区资料。打法是建议，国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Garena 2026-02 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "GameWith 社区武器页：MCX LT",
+          "url": "https://gamewith.jp/deltaforce/542359"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "mdr",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "中距离瞄得准，适合先发现对手再打。",
+      "tactics": "躲在墙或箱子后分段打；打完一个人再换弹。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 7.62×51 毫米子弹。",
+        "note": "弹匣不大；当前弹名、价格请看国服游戏内。"
+      },
+      "basis": "口径来自 Garena 繁中 S11 公告；特点参考 GameWith 社区资料。打法是建议，国服弹价请看游戏内。",
+      "sources": [
+        {
+          "title": "Garena 繁中 S11 新武器公告",
+          "url": "https://deltaforce.garena.com/zh_tw/news/system/KX539B"
+        },
+        {
+          "title": "GameWith 社区武器页：MDR",
+          "url": "https://gamewith.jp/deltaforce/575544"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "mk47",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "对护甲打得重，但连射会左右晃。",
+      "tactics": "靠近墙或箱子，瞄准身体，打几发就停。",
+      "ammo": {
+        "advice": "社区资料列 7.62×39 毫米子弹；买前请在游戏里核对口径和穿透等级。",
+        "note": "两份社区资料一致，但 Garena 繁中旧公告写法相反；以游戏内为准。"
+      },
+      "basis": "国服社区物品页和日服 GameWith 均列 7.62×39；Garena 繁中旧公告疑似把它与 Marlin 的口径对调。打法是建议。",
+      "sources": [
+        {
+          "title": "Garena 2025-09 新赛季公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/W9PGYU"
+        },
+        {
+          "title": "GameWith 社区武器页：MK47",
+          "url": "https://gamewith.jp/deltaforce/519356"
+        },
+        {
+          "title": "Garena 繁中旧公告（口径写法有冲突）",
+          "url": "https://deltaforce.garena.com/zh_tw/news/all/YFNFMQ"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "国服社区物品页：MK47 可用子弹",
+          "url": "https://orzice.com/v/info/1179"
+        }
+      ]
+    },
+    {
+      "modelId": "ptr32",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "每发伤害较高，适合慢一点打。",
+      "tactics": "打几发就停，躲回墙或箱子后再瞄。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 7.62×39 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：PTR-32",
+          "url": "https://deltaforcedb.com/weapon/ptr-32"
+        },
+        {
+          "title": "Garena 2026-03 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/announcement/M6QYRU"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "rm277",
+      "region": "国际服历史资料",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "子弹飞得快，打中远处移动的对手更容易。",
+      "tactics": "中距离先开镜打短串，打不准就停一下再瞄。",
+      "ammo": {
+        "advice": "带 6.8×51 毫米弹；穿透等级要跟对手护甲相配。",
+        "note": "国际服官方确认 6.8×51 口径；国服当前弹名请核对。"
+      },
+      "basis": "口径来自 Garena 官方；弹速特点参考日服 GameWith。打法是编辑建议，国服现值待核。",
+      "sources": [
+        {
+          "title": "Garena RM277 口径公告",
+          "url": "https://deltaforce.garena.com/en/news/all/2MX7J4"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 RM277 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/565803"
+        }
+      ]
+    },
+    {
+      "modelId": "sg552",
+      "region": "跨服参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "射速快，适合近中距离先手。",
+      "tactics": "打几发就停，别把小弹匣一次打光。",
+      "ammo": {
+        "advice": "对手穿 4 级甲，就选 4 级或更高穿透的 5.56×45 毫米子弹。",
+        "note": "国服当前弹名、价格还没核实。"
+      },
+      "basis": "枪的特点和口径参考社区资料；打法是建议。国服当前数值还没核实。",
+      "sources": [
+        {
+          "title": "Delta Force Database 社区武器页：SG552",
+          "url": "https://deltaforcedb.com/weapon/sg552"
+        },
+        {
+          "title": "Garena 2026-02 武器调整",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "mk4",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "有不同枪管可选，能按打法换配件。",
+      "tactics": "多在短距离开镜打；长时间腰射容易散开。",
+      "ammo": {
+        "advice": "带 4.6×30 毫米弹；换枪管后仍要选穿透等级够的弹。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena MK4 枪管与腰射调整公告",
+          "url": "https://deltaforce.garena.com/en/news/all/JQTVNF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 MK4 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/530876"
+        }
+      ]
+    },
+    {
+      "modelId": "qcq171",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "旧公告曾提高操控，适合近处快速转角。",
+      "tactics": "先贴掩体，转角时开镜打；远处目标别一直追着扫。",
+      "ammo": {
+        "advice": "带 9×19 毫米弹；可能遇 5 级甲就先看有无 5 级穿透。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena QCQ171 操控调整公告",
+          "url": "https://deltaforce.garena.com/en/news/all/YVRATP"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 QCQ171 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/482427"
+        }
+      ]
+    },
+    {
+      "modelId": "vityaz",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "适合近处守一条短走廊。",
+      "tactics": "等对手进走廊再瞄准身体打，别站到门中央。",
+      "ammo": {
+        "advice": "带 9×19 毫米弹；穿透等级不够时别硬打重甲。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena 勇士冲锋枪赛季公告",
+          "url": "https://deltaforce.garena.com/en/news/all/RQDZSV"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 VITYAZ 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475882"
+        }
+      ]
+    },
+    {
+      "modelId": "m250",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "适合在中距离守住一片开阔区域。",
+      "tactics": "先找掩体再开镜连射；换位置前先停火。",
+      "ammo": {
+        "advice": "带 6.8×51 毫米弹；打 5 级甲先看有没有 5 级穿透。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena M250 平衡调整公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/W9PGYU"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 M250 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/475870"
+        }
+      ]
+    },
+    {
+      "modelId": "qjb201",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "开镜连射的散布有专门调整，适合守线。",
+      "tactics": "先瞄准通道再开火；别一边跑一边长扫。",
+      "ammo": {
+        "advice": "带 5.8×42 毫米弹，连射守线要多备一组。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena QJB201 散布调整公告",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 QJB201 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/482426"
+        }
+      ]
+    },
+    {
+      "modelId": "mini14",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "后坐力温和，连续点射不太容易飘。",
+      "tactics": "守中距离，打两三枪就停一下看准。",
+      "ammo": {
+        "advice": "选 5.56×45 子弹；厚甲对手要更高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和单发模式据国服社区物品页；海外官方曾改善 Mini-14 稳定性，现值待核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：Mini-14",
+          "url": "https://orzice.com/v/info/217"
+        },
+        {
+          "title": "Garena Mini-14 稳定性调整",
+          "url": "https://deltaforce.garena.com/en/news/all/V6J38U"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "psg1",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "半自动点射较稳，适合守中距离。",
+      "tactics": "先瞄住路口，再一枪一枪跟着目标打。",
+      "ammo": {
+        "advice": "选 7.62×51 子弹；厚甲对手优先高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和半自动模式据国服社区物品页；海外官方曾调 PSG-1 稳定性与弹速，现值待核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：PSG-1",
+          "url": "https://orzice.com/v/info/187"
+        },
+        {
+          "title": "Garena PSG-1 稳定性调整",
+          "url": "https://deltaforce.garena.com/en/news/all/V6J38U"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "sr25",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "连续点射时比较稳，适合中远距离。",
+      "tactics": "先靠掩体瞄身体，再均匀地一枪一枪打。",
+      "ammo": {
+        "advice": "选 7.62×51 子弹；穿透等级要够对付预计的护甲。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和单发模式据国服社区物品页；海外官方曾改善 SR-25 连射稳定性，现值待核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：SR-25",
+          "url": "https://orzice.com/v/info/579"
+        },
+        {
+          "title": "Garena SR-25 稳定性调整",
+          "url": "https://deltaforce.garena.com/en/news/all/V6J38U"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "sr9",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "和 M14、SR-25 共用子弹，补给更好配。",
+      "tactics": "别边跑边打；先停下，瞄好再点。",
+      "ammo": {
+        "advice": "选 7.62×51 子弹；厚甲对手优先高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和单发模式据国服社区物品页；海外官方曾调整 SR9 稳定性与弹速，现值待核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：SR9",
+          "url": "https://orzice.com/v/info/340"
+        },
+        {
+          "title": "国服社区弹药关联页",
+          "url": "https://orzice.com/v/info/p2"
+        },
+        {
+          "title": "Garena SR9 稳定性调整",
+          "url": "https://deltaforce.garena.com/en/news/all/V6J38U"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "svch",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "可装连发枪管，近处能快速开火。",
+      "tactics": "装上连发枪管后，近处打几发就躲；用单发时守中距离点射。",
+      "ammo": {
+        "advice": "海外官方列为 7.62×54R 子弹；打厚甲选更高穿透等级。",
+        "note": "国服客户端的口径、弹名和等级尚未复核。"
+      },
+      "basis": "海外官方确认 7.62×54R 口径；日服 GameWith 记载连发枪管。快换弹匣属限时配件，未用于建议。国服配件待核。",
+      "sources": [
+        {
+          "title": "Garena SVCH 上线与配件公告",
+          "url": "https://deltaforce.garena.com/en/news/all/2MX7J4"
+        },
+        {
+          "title": "国服社区弹药关联页：SVCH",
+          "url": "https://orzice.com/v/info/p3"
+        },
+        {
+          "title": "日服 GameWith：SVCH 连发配件",
+          "url": "https://gamewith.jp/deltaforce/565804"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "vss",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "枪声比较小，适合在近中距离悄悄换位置。",
+      "tactics": "绕到侧面打；别和远处的狙击枪一直对望。",
+      "ammo": {
+        "advice": "选 9×39 子弹；对厚甲先看穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径、消音与较低弹速据国服社区物品页；海外官方旧调整仅供参考。打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：VSS",
+          "url": "https://orzice.com/v/info/80"
+        },
+        {
+          "title": "Garena 旧版 VSS 调整",
+          "url": "https://deltaforce.garena.com/en/news/announcement/M6QYRU"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "marlin",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "单发伤害高，适合中近距离看准再打。",
+      "tactics": "守门口和短走廊；一枪没中就先躲开。",
+      "ammo": {
+        "advice": "社区资料列 .45-70 Govt 子弹；买前请在游戏里核对口径和穿透等级。",
+        "note": "两份社区资料一致，但 Garena 繁中旧公告写法相反；以游戏内为准。"
+      },
+      "basis": "国服社区物品页和日服 GameWith 均列 .45-70 Govt；Garena 繁中旧公告疑似把它与 MK47 的口径对调。打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：Marlin",
+          "url": "https://orzice.com/v/info/1180"
+        },
+        {
+          "title": "日服 GameWith：Marlin",
+          "url": "https://gamewith.jp/deltaforce/519355"
+        },
+        {
+          "title": "Garena 繁中 Marlin 上线公告（口径冲突）",
+          "url": "https://deltaforce.garena.com/zh_tw/news/all/YFNFMQ"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "日服 GameWith：杠杆式步枪口径",
+          "url": "https://gamewith.jp/deltaforce/519355"
+        }
+      ]
+    },
+    {
+      "modelId": "m82",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "大口径打远处，也能伤害游戏里的部分作战设备。",
+      "tactics": "找掩体站稳再打；近处被追就先换位置。",
+      "ammo": {
+        "advice": "选 .50 BMG 子弹；对厚甲先看它的穿透等级。",
+        "note": "国服当前弹种和等级未在客户端复核。"
+      },
+      "basis": "M82 口径和可伤害作战设备据 Garena 海外官方公告；国服现值待核。打法是建议。",
+      "sources": [
+        {
+          "title": "Garena M82 上线公告",
+          "url": "https://deltaforce.garena.com/en/news/all/YVRATP"
+        },
+        {
+          "title": "Garena M82 作战设备调整",
+          "url": "https://deltaforce.garena.com/en/news/all/2MX7J4"
+        },
+        {
+          "title": "国服社区物品页：M82",
+          "url": "https://orzice.com/v/info/1294"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "r93",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "打完第一发后，能较快补第二发。",
+      "tactics": "守中远距离；漏一枪先重新瞄，不要乱追。",
+      "ammo": {
+        "advice": "选 7.62×51 子弹；厚甲对手优先高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和开火方式据国服社区物品页；海外官方旧公告有 R93 调整，现值待核。打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：R93",
+          "url": "https://orzice.com/v/info/449"
+        },
+        {
+          "title": "Garena 旧版 R93 调整",
+          "url": "https://deltaforce.garena.com/en/news/all/H3T8DS"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "shotgun725",
+      "region": "跨服资料参考",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "两根枪管，近处可快速打两发。",
+      "tactics": "等对手靠近再打；两发用完马上躲回掩体。",
+      "ammo": {
+        "advice": "带 12 号霰弹；两发机会，先看穿透等级够不够。",
+        "note": "口径参考日服社区资料；国服当前弹名和价格请在游戏里看。"
+      },
+      "basis": "口径据 GameWith 日服逐枪页；武器资料见 Garena 官方。打法是编辑建议，国服数值未核。",
+      "sources": [
+        {
+          "title": "Garena 725 双管霰弹枪公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/U6RKQ9"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 SHOTGUN725 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/494660"
+        }
+      ]
+    },
+    {
+      "modelId": "fs12",
+      "region": "国际服历史资料",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "可折叠放进手枪栏，适合当近处备用枪。",
+      "tactics": "主要用主武器；转角很近时再切出来。",
+      "ammo": {
+        "advice": "当备用枪带 12 号霰弹；打重甲要选能穿甲的种类。",
+        "note": "国际服官方确认 12 Gauge；国服当前弹种请在游戏里看。"
+      },
+      "basis": "口径与折叠规则来自 Garena 官方；日服社区页供交叉查看。打法是编辑建议。",
+      "sources": [
+        {
+          "title": "Garena FS-12 口径与折叠公告",
+          "url": "https://deltaforce.garena.com/en/news/all/MW4ZYF"
+        },
+        {
+          "title": "Garena 烽火地带弹药与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        },
+        {
+          "title": "GameWith 日服 FS12 口径页（社区）",
+          "url": "https://gamewith.jp/deltaforce/542358"
+        }
+      ]
+    },
+    {
+      "modelId": "pistol93r",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "一次能连发三枪，近处补枪快。",
+      "tactics": "近处瞄住身体再按；别在远处连按。",
+      "ammo": {
+        "advice": "选 9×19 子弹；打护甲先看穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和三连发模式据国服社区物品页；海外 S11 配件可改全自动，但非默认配置。",
+      "sources": [
+        {
+          "title": "国服社区物品页：93R",
+          "url": "https://orzice.com/v/info/122"
+        },
+        {
+          "title": "Garena S11 93R 配件公告",
+          "url": "https://deltaforce.garena.com/en/news/announcement/PA6CZD"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "g17",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "弹匣比左轮大，适合连续补枪。",
+      "tactics": "当备用枪打近处；每枪瞄准，别隔着厚甲硬拼。",
+      "ammo": {
+        "advice": "选 9×19 子弹；厚甲对手要更高穿透等级。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径和弹匣特点据国服社区物品页；海外官方修过 G17 身体伤害，现值待核。",
+      "sources": [
+        {
+          "title": "国服社区物品页：G17",
+          "url": "https://orzice.com/v/info/59"
+        },
+        {
+          "title": "Garena 旧版 G17 修正",
+          "url": "https://deltaforce.garena.com/en/news/all/H3T8DS"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
+      ]
+    },
+    {
+      "modelId": "qsz92g",
+      "region": "国服待核",
+      "mode": "烽火地带",
+      "reviewedAt": "2026-09-24",
+      "strength": "一枪一枪打，弹匣能装下不少子弹。",
+      "tactics": "贴近掩体打近处；主枪换好弹就切回主枪。",
+      "ammo": {
+        "advice": "选 9×19 子弹；穿透等级要够对付预计的护甲。",
+        "note": "国服当前弹名和等级未在客户端复核。"
+      },
+      "basis": "口径、单发和弹匣特点据国服社区物品页；打法是建议。",
+      "sources": [
+        {
+          "title": "国服社区物品页：QSZ92G",
+          "url": "https://orzice.com/v/info/212"
+        },
+        {
+          "title": "Garena 子弹与护甲说明",
+          "url": "https://deltaforce.garena.com/en/news/system/RMDWVM"
+        }
       ]
     }
   ]

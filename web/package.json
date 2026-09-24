@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1 --port 5174 --strictPort",
     "build": "vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4174 --strictPort",
-    "test": "node ../scripts/test_viewer.mjs && node ../scripts/test_catalog.mjs"
+    "test": "node ../scripts/test_viewer.mjs && node ../scripts/test_catalog.mjs && node ../scripts/test_game_guides.mjs"
   },
   "dependencies": { "three": "0.186.0" },
   "devDependencies": { "vite": "8.3.0" }
