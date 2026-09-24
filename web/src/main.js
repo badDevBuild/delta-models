@@ -4,6 +4,7 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { Assembly,disposeModel } from './assembly.js';
 import { LatestModelLoader } from './model-loader.js';
 import {formatMeasure,setModelWireframe} from './view-options.js';
+import {loadGameGuides,renderGameGuide} from './game-guide.js';
 import './style.css';
 
 const $=id=>document.getElementById(id);
@@ -88,6 +89,7 @@ function renderEntry(entry){
   $('model-size').textContent=entry.lengthMm?`数字模型约 ${formatMeasure(Number(entry.lengthMm)/10)} 厘米 · 非功能性 · ${printed}`:`非功能性缩比模型 · ${printed}`;
   $('model-description').textContent=entry.description||`${entry.name} 外观模型。旋转查看轮廓，选择组件探索细节。`;
   $('model-note').hidden=!entry.note;$('model-note').textContent=entry.note||'';
+  renderGameGuide(entry.id);
   updateLink('download-print',entry.downloads?.print);updateLink('download-blend',entry.downloads?.blend);
   updateLink('download-sliced',entry.downloads?.sliced);$('download-sliced').hidden=!entry.downloads?.sliced;
   document.title=`${entry.name} · DELTA MODELS 模型收藏馆`;
@@ -231,6 +233,7 @@ function initRenderer(){
 async function init(){
   setReady(false);
   try{if(!renderer)initRenderer();}catch(error){showLoading('浏览器无法启动三维渲染','请使用支持 WebGL 2 的浏览器，并启用图形加速。',true);console.error(error);return;}
+  const guidesReady=loadGameGuides().then(()=>{if(currentModel)renderGameGuide(currentModel.id);}).catch(error=>console.warn('游戏指南暂时无法读取',error));
   try{
     const response=await fetch('/catalog.json');if(!response.ok)throw new Error(`目录 HTTP ${response.status}`);const data=await response.json();
     if(!Array.isArray(data.models)||!data.models.length||data.models.some(e=>!e.id)||new Set(data.models.map(e=>e.id)).size!==data.models.length)throw new Error('目录缺少有效且唯一的模型编号。');
@@ -238,6 +241,10 @@ async function init(){
     const requested=new URLSearchParams(location.search).get('model');
     const filtered=visibleModels();
     await loadModel(filtered.find(e=>e.id===requested)||filtered[0]||catalog.models.find(e=>e.id==='m7')||catalog.models[0],{historyMode:'replace'});
+    if(location.hash==='#game-guide'){
+      await guidesReady;
+      if(!$('game-guide').hidden)requestAnimationFrame(()=>$('game-guide').scrollIntoView({block:'start'}));
+    }
   }catch(error){showLoading('展品目录暂时无法读取','请检查网络或本地预览服务，然后重试。',true);console.error(error);}
 }
 

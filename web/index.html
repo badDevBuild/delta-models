@@ -43,6 +43,17 @@
         <button id="wireframe" class="wireframe-button" aria-pressed="false" disabled>△ 显示三角网格</button>
         <div class="tool-group"><button id="zoom-out" class="icon-button" aria-label="缩小">−</button><button id="zoom-in" class="icon-button" aria-label="放大">＋</button><span class="tool-divider"></span><button id="autorotate" aria-pressed="false">↻ <span>自动旋转</span></button><button id="reset-view">⌖ <span>复位视角</span></button></div>
       </div>
+      <section id="game-guide" class="game-guide" aria-labelledby="game-guide-title" hidden>
+        <div class="game-guide-head"><div><span class="eyebrow">GAMEPLAY</span><h3 id="game-guide-title">游戏内使用指南</h3></div><span id="game-guide-scope" class="game-guide-scope"></span></div>
+        <p id="game-guide-summary" class="game-guide-summary"></p>
+        <div class="game-guide-grid">
+          <div class="game-guide-item"><h4>优势</h4><ul id="game-guide-strengths"></ul></div>
+          <div class="game-guide-item"><h4>要留意</h4><ul id="game-guide-limitations"></ul></div>
+          <div class="game-guide-item"><h4>怎么用</h4><p id="game-guide-tactics"></p></div>
+          <div class="game-guide-item"><h4>子弹怎么选</h4><p id="game-guide-ammo"></p><p id="game-guide-ammo-note" class="game-guide-note"></p></div>
+        </div>
+        <details class="game-guide-evidence"><summary>适用范围与资料来源</summary><p id="game-guide-basis"></p><ul id="game-guide-sources"></ul></details>
+      </section>
     </section>
     <aside class="inspector" aria-label="组件操作">
       <section class="inspector-section"><h3>探索构成</h3><p class="muted">展开层次，查看每一处细节。</p><div class="range-label"><label for="explode">分解程度</label><output id="explode-value" for="explode">0%</output></div><input id="explode" type="range" min="0" max="100" value="0" aria-label="分解程度" /><div class="range-ends"><span>组合</span><span>展开</span></div><button id="assemble" class="wide-button">↶ 重置模型与配件</button></section>
