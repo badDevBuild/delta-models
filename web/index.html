@@ -24,11 +24,6 @@
     </aside>
     <section class="workspace" aria-label="三维展台">
       <div class="exhibit-title"><div><span class="eyebrow" id="model-category">正在读取目录</span><h2 id="model-name">—</h2></div><div class="exhibit-nav"><button id="previous-model" aria-label="上一个模型" title="上一个模型">←</button><div class="exhibit-counter"><span id="model-index">—</span> / <span id="model-total">—</span></div><button id="next-model" aria-label="下一个模型" title="下一个模型">→</button></div></div>
-      <section id="downloads" class="download-panel" aria-labelledby="downloads-title">
-        <div class="download-copy"><h3 id="downloads-title">下载当前模型</h3><p id="model-description"></p><p id="model-note" class="muted" hidden></p></div>
-        <div class="download-actions"><a id="download-print" class="primary-download" download>↓ <span>打印文件<small>STL / 3MF</small></span><span>↗</span></a><a id="download-sliced" class="secondary-download" download hidden>P1S 切片工程 <span>↗</span></a><a id="download-blend" class="secondary-download" download>Blender 可编辑母版 <span>↗</span></a></div>
-        <p class="download-notice">模型仅限非商业使用 · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0 ↗</a></p>
-      </section>
       <div class="stage-shell">
         <span class="stage-word" id="stage-word" aria-hidden="true">M7</span>
         <div id="viewer" tabindex="0" role="application" aria-label="三维模型：拖动旋转，滚轮或双指缩放；加减键缩放，R 复位，Esc 取消选择"></div>
@@ -44,15 +39,19 @@
         <div class="tool-group"><button id="zoom-out" class="icon-button" aria-label="缩小">−</button><button id="zoom-in" class="icon-button" aria-label="放大">＋</button><span class="tool-divider"></span><button id="autorotate" aria-pressed="false">↻ <span>自动旋转</span></button><button id="reset-view">⌖ <span>复位视角</span></button></div>
       </div>
       <section id="game-guide" class="game-guide" aria-labelledby="game-guide-title" hidden>
-        <div class="game-guide-head"><div><span class="eyebrow">GAMEPLAY</span><h3 id="game-guide-title">游戏内使用指南</h3></div><span id="game-guide-scope" class="game-guide-scope"></span></div>
-        <p id="game-guide-summary" class="game-guide-summary"></p>
+        <div class="game-guide-head"><h3 id="game-guide-title">这把枪怎么玩</h3><span id="game-guide-scope" class="game-guide-scope"></span></div>
         <div class="game-guide-grid">
-          <div class="game-guide-item"><h4>优势</h4><ul id="game-guide-strengths"></ul></div>
-          <div class="game-guide-item"><h4>要留意</h4><ul id="game-guide-limitations"></ul></div>
-          <div class="game-guide-item"><h4>怎么用</h4><p id="game-guide-tactics"></p></div>
-          <div class="game-guide-item"><h4>子弹怎么选</h4><p id="game-guide-ammo"></p><p id="game-guide-ammo-note" class="game-guide-note"></p></div>
+          <div class="game-guide-item"><h4>优点</h4><p id="game-guide-strength"></p></div>
+          <div class="game-guide-item"><h4>怎么打</h4><p id="game-guide-tactics"></p></div>
+          <div class="game-guide-item"><h4>带什么子弹</h4><p id="game-guide-ammo"></p></div>
         </div>
-        <details class="game-guide-evidence"><summary>适用范围与资料来源</summary><p id="game-guide-basis"></p><ul id="game-guide-sources"></ul></details>
+        <p id="game-guide-ammo-note" class="game-guide-note"></p>
+        <details class="game-guide-evidence"><summary>资料从哪里来？</summary><p id="game-guide-basis"></p><ul id="game-guide-sources"></ul></details>
+      </section>
+      <section id="downloads" class="download-panel" aria-labelledby="downloads-title">
+        <div class="download-copy"><h3 id="downloads-title">下载当前模型</h3><p id="model-description"></p><p id="model-note" class="muted" hidden></p></div>
+        <div class="download-actions"><a id="download-print" class="primary-download" download>↓ <span>打印文件<small>STL / 3MF</small></span><span>↗</span></a><a id="download-sliced" class="secondary-download" download hidden>P1S 切片工程 <span>↗</span></a><a id="download-blend" class="secondary-download" download>Blender 可编辑母版 <span>↗</span></a></div>
+        <p class="download-notice">模型仅限非商业使用 · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0 ↗</a></p>
       </section>
     </section>
     <aside class="inspector" aria-label="组件操作">

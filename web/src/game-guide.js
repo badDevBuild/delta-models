@@ -2,15 +2,6 @@ import './game-guide.css';
 
 let guides = new Map();
 
-function fillList(id, values) {
-  const list = document.getElementById(id);
-  list.replaceChildren(...values.map(value => {
-    const item = document.createElement('li');
-    item.textContent = value;
-    return item;
-  }));
-}
-
 export async function loadGameGuides() {
   const response = await fetch('/game-guides.json');
   if (!response.ok) throw new Error(`游戏指南 HTTP ${response.status}`);
@@ -21,9 +12,7 @@ export async function loadGameGuides() {
     try { return isText(source.title) && new URL(source.url).protocol === 'https:'; }
     catch { return false; }
   });
-  if (data.guides.some(guide => !guide || ![guide.modelId, guide.region, guide.mode, guide.summary, guide.tactics, guide.basis, guide.reviewedAt, guide.ammo?.advice, guide.ammo?.note].every(isText)
-    || !Array.isArray(guide.strengths) || !guide.strengths.every(isText)
-    || !Array.isArray(guide.limitations) || !guide.limitations.every(isText)
+  if (data.guides.some(guide => !guide || ![guide.modelId, guide.region, guide.mode, guide.strength, guide.tactics, guide.basis, guide.reviewedAt, guide.ammo?.advice, guide.ammo?.note].every(isText)
     || !validSources(guide.sources))
     || new Set(data.guides.map(guide => guide.modelId)).size !== data.guides.length) throw new Error('游戏指南内容无效');
   guides = new Map(data.guides.map(guide => [guide.modelId, guide]));
@@ -36,13 +25,11 @@ export function renderGameGuide(modelId) {
   if (!guide) return;
 
   document.getElementById('game-guide-scope').textContent = `${guide.region} · ${guide.mode}`;
-  document.getElementById('game-guide-summary').textContent = guide.summary;
-  fillList('game-guide-strengths', guide.strengths);
-  fillList('game-guide-limitations', guide.limitations);
+  document.getElementById('game-guide-strength').textContent = guide.strength;
   document.getElementById('game-guide-tactics').textContent = guide.tactics;
   document.getElementById('game-guide-ammo').textContent = guide.ammo.advice;
   document.getElementById('game-guide-ammo-note').textContent = guide.ammo.note;
-  document.getElementById('game-guide-basis').textContent = `${guide.basis} · 资料核对：${guide.reviewedAt}`;
+  document.getElementById('game-guide-basis').textContent = `${guide.basis} · 最后核对：${guide.reviewedAt}`;
 
   const sourceItems = guide.sources.map(source => {
     const item = document.createElement('li');

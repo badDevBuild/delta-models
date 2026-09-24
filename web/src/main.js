@@ -241,9 +241,10 @@ async function init(){
     const requested=new URLSearchParams(location.search).get('model');
     const filtered=visibleModels();
     await loadModel(filtered.find(e=>e.id===requested)||filtered[0]||catalog.models.find(e=>e.id==='m7')||catalog.models[0],{historyMode:'replace'});
-    if(location.hash==='#game-guide'){
+    const anchor=location.hash==='#game-guide'?'game-guide':location.hash==='#downloads'?'downloads':null;
+    if(anchor){
       await guidesReady;
-      if(!$('game-guide').hidden)requestAnimationFrame(()=>$('game-guide').scrollIntoView({block:'start'}));
+      if(!$(anchor).hidden)requestAnimationFrame(()=>$(anchor).scrollIntoView({block:'start'}));
     }
   }catch(error){showLoading('展品目录暂时无法读取','请检查网络或本地预览服务，然后重试。',true);console.error(error);}
 }
