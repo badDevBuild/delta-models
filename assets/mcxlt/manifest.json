@@ -1,0 +1,204 @@
+{
+  "id": "mcxlt",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 299.134,
+  "source_urls": [
+    "https://img.gamewith.jp/article/thumbnail/rectangle/542359.png?date=1769744724",
+    "https://gamewith.jp/deltaforce/542359"
+  ],
+  "approximation": [
+    "依据 GameWith 的 MCX LT 默认游戏大图，重建短折面护木、宽上机匣、长直格纹匣和细杆开窗后托；该图为单侧视角，背面细节含更大艺术推断。",
+    "2026-09-22 实际查看游戏外观参考；轮廓独立重建，宽度、遮蔽面与细小纹理为艺术推断。",
+    "微缩实心外观雕塑；封闭前端，无膛室、内部机构、通孔或真实安装接口。网页分组仅作外观拆装。",
+    "可选光学装饰默认隐藏，只供数字展示；没有提取游戏网格或贴图，发布者声明可按 CC BY-NC 4.0 非商业再分发。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "折面机匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 32,
+      "bounds_mm": [
+        [
+          -49.0,
+          -13.100000381469727,
+          15.0
+        ],
+        [
+          62.9611701965332,
+          13.100000381469727,
+          39.0
+        ]
+      ]
+    },
+    {
+      "id": "part_lower",
+      "label": "下部机匣与固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 10,
+      "bounds_mm": [
+        [
+          -46.0,
+          -9.399999618530273,
+          -9.0
+        ],
+        [
+          13.933740615844727,
+          9.399999618530273,
+          19.0
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "护木外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 61,
+      "bounds_mm": [
+        [
+          -136.0,
+          -11.850000381469727,
+          12.0
+        ],
+        [
+          -44.069305419921875,
+          11.850000381469727,
+          40.5
+        ]
+      ]
+    },
+    {
+      "id": "part_front",
+      "label": "封闭前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 3,
+      "bounds_mm": [
+        [
+          -149.15000915527344,
+          -4.0,
+          19.0
+        ],
+        [
+          -133.0,
+          4.0,
+          27.0
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "实心弹匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 61,
+      "bounds_mm": [
+        [
+          -54.91520309448242,
+          -7.850000381469727,
+          -57.914093017578125
+        ],
+        [
+          -18.044721603393555,
+          7.850000381469727,
+          12.930753707885742
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "斜握把外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 29,
+      "bounds_mm": [
+        [
+          -1.8716236352920532,
+          -7.510000228881836,
+          -34.725914001464844
+        ],
+        [
+          31.634689331054688,
+          7.510000228881836,
+          8.933481216430664
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "枪托外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 26,
+      "bounds_mm": [
+        [
+          58.5,
+          -8.510000228881836,
+          -18.0
+        ],
+        [
+          149.9839630126953,
+          8.510000228881836,
+          39.0
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "顶部脊与机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 54,
+      "bounds_mm": [
+        [
+          -133.0,
+          -4.0,
+          39.025001525878906
+        ],
+        [
+          50.0,
+          4.0,
+          52.70000076293945
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选紧凑瞄具",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 8,
+      "bounds_mm": [
+        [
+          -9.825000762939453,
+          -7.299999713897705,
+          39.70000076293945
+        ],
+        [
+          15.825000762939453,
+          6.349999904632568,
+          55.64999771118164
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -149.15000915527344,
+      -13.100000381469727,
+      -57.914093017578125
+    ],
+    [
+      149.9839630126953,
+      13.100000381469727,
+      52.70000076293945
+    ]
+  ],
+  "mesh_count": 284,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

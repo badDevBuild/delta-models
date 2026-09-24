@@ -1,0 +1,204 @@
+{
+  "id": "m249",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 320.051,
+  "source_urls": [
+    "https://zilliongamer.com/delta-force/c/weapons/best-m249-build-delta-force",
+    "https://zilliongamer.com/uploads/delta-force/weapons-builds/light-machine-gun/m249/m249-delta-force-build.jpg"
+  ],
+  "approximation": [
+    "已实际查看游戏基础截图：长直前端、灰黑压制护木、固定黑色宽托、垂直长盒外壳、侧面金色横条以及折叠提把。",
+    "总长320mm为微缩艺术设计值；右侧、顶部隐蔽细节与小型五金为外观推断；未照抄游戏标识或文字。",
+    "侧面金色列仅用连续实心底板和扁平金色横条浮雕表现，无弹药、供弹或其他内部机构；盒体实心封闭。",
+    "可选支架是固定装饰，网页可切换；实体基础配置整体融合后平面胶合，不含支架。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "封闭机匣外壳",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 65,
+      "bounds_mm": [
+        [
+          -20.0,
+          -12.720000267028809,
+          -2.0
+        ],
+        [
+          76.96802520751953,
+          12.720000267028809,
+          33.0
+        ]
+      ]
+    },
+    {
+      "id": "part_top_cover",
+      "label": "上盖与顶部外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 51,
+      "bounds_mm": [
+        [
+          -54.5,
+          -13.510000228881836,
+          22.5
+        ],
+        [
+          68.5,
+          13.510000228881836,
+          44.20000076293945
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "护木外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 43,
+      "bounds_mm": [
+        [
+          -107.81809997558594,
+          -10.5,
+          -5.0
+        ],
+        [
+          -13.0303373336792,
+          10.5,
+          31.901399612426758
+        ]
+      ]
+    },
+    {
+      "id": "part_front",
+      "label": "封闭前端和机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 20,
+      "bounds_mm": [
+        [
+          -160.0800018310547,
+          -5.0,
+          8.0
+        ],
+        [
+          -74.5,
+          5.0,
+          39.86909103393555
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "黑色固定托外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 37,
+      "bounds_mm": [
+        [
+          71.07594299316406,
+          -11.0,
+          -19.0
+        ],
+        [
+          159.97076416015625,
+          11.0,
+          26.33350372314453
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "握把和固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 29,
+      "bounds_mm": [
+        [
+          12.035462379455566,
+          -7.275000095367432,
+          -30.720226287841797
+        ],
+        [
+          61.683074951171875,
+          7.275000095367432,
+          5.0
+        ]
+      ]
+    },
+    {
+      "id": "part_box",
+      "label": "实心长盒外壳",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 59,
+      "bounds_mm": [
+        [
+          -18.0,
+          -12.610000610351562,
+          -58.0
+        ],
+        [
+          10.0,
+          12.610000610351562,
+          1.899999976158142
+        ]
+      ]
+    },
+    {
+      "id": "part_trim",
+      "label": "金色压纹及固定细节",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 32,
+      "bounds_mm": [
+        [
+          -16.0,
+          -15.865679740905762,
+          2.0
+        ],
+        [
+          61.5,
+          -10.75,
+          33.0
+        ]
+      ]
+    },
+    {
+      "id": "part_bipod",
+      "label": "可选装饰支架",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 21,
+      "bounds_mm": [
+        [
+          -118.5,
+          -25.5,
+          -45.400001525878906
+        ],
+        [
+          -92.0,
+          25.5,
+          6.5
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -160.0800018310547,
+      -15.865679740905762,
+      -58.0
+    ],
+    [
+      159.97076416015625,
+      13.510000228881836,
+      44.20000076293945
+    ]
+  ],
+  "mesh_count": 357,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

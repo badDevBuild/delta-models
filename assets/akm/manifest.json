@@ -1,0 +1,227 @@
+{
+  "schema": "delta-six-asset/v1",
+  "id": "akm",
+  "name": "AKM · 木色基础外观",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 294,
+  "source_urls": [
+    "https://criticalhits.com.br/dicas/delta-force-melhor-build-para-akm/",
+    "https://criticalhits.com.br/wp-content/uploads/2025/01/Melhor-build-para-AKM-em-Delta-Force.jpg",
+    "https://df-build.com/builds/"
+  ],
+  "approximation": [
+    "Hand-authored exterior reconstruction from public game screenshots; not an extracted game mesh.",
+    "The base wood furniture and curved stamped magazine follow visible game appearance.",
+    "Underside, far side, wood grain, hidden surfaces and very small hardware are artist interpretations.",
+    "All proportions are decorative miniature approximations; body, front tip and magazine are filled.",
+    "No original logos or markings, no real component dimensions, interfaces or functional internals."
+  ],
+  "physical_print_tested": false,
+  "parts": [
+    {
+      "id": "part_receiver",
+      "key": "receiver",
+      "label": "机匣外观",
+      "meshes": 42,
+      "bounds_mm": [
+        [
+          -20.0,
+          -16.799999237060547,
+          -16.399999618530273
+        ],
+        [
+          86.0,
+          9.354999542236328,
+          20.992000579833984
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_cover",
+      "key": "cover",
+      "label": "顶部盖板",
+      "meshes": 9,
+      "bounds_mm": [
+        [
+          -14.25,
+          -8.5,
+          19.597999572753906
+        ],
+        [
+          76.1500015258789,
+          8.5,
+          27.51099967956543
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_handguard",
+      "key": "handguard",
+      "label": "木色护木",
+      "meshes": 38,
+      "bounds_mm": [
+        [
+          -62.0,
+          -9.90999984741211,
+          -1.6399999856948853
+        ],
+        [
+          -16.113933563232422,
+          9.90999984741211,
+          24.10799789428711
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_stock",
+      "key": "stock",
+      "label": "木色整托",
+      "meshes": 43,
+      "bounds_mm": [
+        [
+          79.04232025146484,
+          -12.66348934173584,
+          -21.100996017456055
+        ],
+        [
+          147.0,
+          12.66348934173584,
+          19.667217254638672
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_grip",
+      "key": "grip",
+      "label": "后握把",
+      "meshes": 44,
+      "bounds_mm": [
+        [
+          52.48310089111328,
+          -7.460000038146973,
+          -31.89820671081543
+        ],
+        [
+          81.72437286376953,
+          7.460000038146973,
+          2.3883895874023438
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_magazine",
+      "key": "magazine",
+      "label": "实心弯曲弹匣外观",
+      "meshes": 23,
+      "bounds_mm": [
+        [
+          -26.727664947509766,
+          -8.100000381469727,
+          -58.114463806152344
+        ],
+        [
+          28.0,
+          8.100000381469727,
+          2.4600000381469727
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_barrel",
+      "key": "barrel",
+      "label": "封口装饰前端",
+      "meshes": 10,
+      "bounds_mm": [
+        [
+          -147.14999389648438,
+          -4.150000095367432,
+          7.175000190734863
+        ],
+        [
+          -40.0,
+          4.150000095367432,
+          24.107999801635742
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_front_sight",
+      "key": "front_sight",
+      "label": "固定前瞄具",
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          -131.9608154296875,
+          -4.150000095367432,
+          8.527999877929688
+        ],
+        [
+          -123.07269287109375,
+          4.150000095367432,
+          31.084331512451172
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_rear_sight",
+      "key": "rear_sight",
+      "label": "固定后瞄具",
+      "meshes": 11,
+      "bounds_mm": [
+        [
+          -23.817035675048828,
+          -5.900000095367432,
+          19.707290649414062
+        ],
+        [
+          5.900417327880859,
+          5.900000095367432,
+          30.257999420166016
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    }
+  ],
+  "bounds_mm": [
+    [
+      -147.14999389648438,
+      -16.799999237060547,
+      -58.114463806152344
+    ],
+    [
+      147.0,
+      12.66348934173584,
+      31.084331512451172
+    ]
+  ],
+  "measured_length_mm": 294.1499938964844,
+  "mesh_count": 225,
+  "glb_bytes": 3004040,
+  "glb_sha256": "de616af0e82962a1d529d2368b00244d4b76cc7841643e0a8237f9522ca1c471",
+  "artifacts": {
+    "blend": "source/akm.blend",
+    "glb": "web/akm.glb",
+    "studio": "renders/studio.png",
+    "side": "renders/side.png"
+  },
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

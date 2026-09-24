@@ -1,0 +1,166 @@
+{
+  "id": "m870",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 330.09,
+  "source_urls": [
+    "https://www.sportskeeda.com/esports/best-m870-build-delta-force",
+    "https://staticg.sportskeeda.com/editor/2025/01/08a4c-17373100175601-1920.jpg",
+    "https://staticg.sportskeeda.com/editor/2025/01/3ff20-17373100344363-1920.jpg"
+  ],
+  "approximation": [
+    "以已查看的游戏基础木质款截图为主，保留长前端、短下管、木质护木、灰钢机匣和木质枪托。",
+    "截图为透视角度，侧视比例、背面与木纹为艺术推断；未复制游戏纹理或标识。",
+    "所有细节为固定微缩外观装饰，前端实心、侧窗封闭，无内部机构或真实接口。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "灰钢机匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 39,
+      "bounds_mm": [
+        [
+          49.0,
+          -8.470000267028809,
+          -10.979338645935059
+        ],
+        [
+          96.0,
+          8.470000267028809,
+          25.0
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "木质枪托外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 250,
+      "bounds_mm": [
+        [
+          93.0,
+          -9.600000381469727,
+          -20.699783325195312
+        ],
+        [
+          165.0,
+          9.600000381469727,
+          24.803884506225586
+        ]
+      ]
+    },
+    {
+      "id": "part_barrel",
+      "label": "封闭长前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 8,
+      "bounds_mm": [
+        [
+          -165.08999633789062,
+          -4.400000095367432,
+          8.0
+        ],
+        [
+          58.5,
+          4.400000095367432,
+          25.399999618530273
+        ]
+      ]
+    },
+    {
+      "id": "part_pump",
+      "label": "木质泵动护木外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 96,
+      "bounds_mm": [
+        [
+          -37.0,
+          -9.405000686645508,
+          0.6999999284744263
+        ],
+        [
+          23.0,
+          9.405000686645508,
+          19.0
+        ]
+      ]
+    },
+    {
+      "id": "part_front_sight",
+      "label": "前机械瞄具装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 2,
+      "bounds_mm": [
+        [
+          -160.98806762695312,
+          -2.549999952316284,
+          24.00554847717285
+        ],
+        [
+          -145.01806640625,
+          2.549999952316284,
+          33.75
+        ]
+      ]
+    },
+    {
+      "id": "part_rear_sight",
+      "label": "后机械瞄具装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 11,
+      "bounds_mm": [
+        [
+          52.0,
+          -3.700000047683716,
+          24.825000762939453
+        ],
+        [
+          83.5,
+          3.700000047683716,
+          31.30000114440918
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选红点装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 9,
+      "bounds_mm": [
+        [
+          58.5,
+          -5.210000038146973,
+          26.899999618530273
+        ],
+        [
+          73.5,
+          5.210000038146973,
+          41.20000076293945
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -165.08999633789062,
+      -9.600000381469727,
+      -20.699783325195312
+    ],
+    [
+      165.0,
+      9.600000381469727,
+      33.75
+    ]
+  ],
+  "mesh_count": 415,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

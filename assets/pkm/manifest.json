@@ -1,0 +1,223 @@
+{
+  "id": "pkm",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 330.17,
+  "source_urls": [
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops",
+    "https://www.imfdb.org/images/thumb/b/b6/DFHO_PKM.jpg/600px-DFHO_PKM.jpg"
+  ],
+  "approximation": [
+    "依照默认双侧图建立木镂空托、绿色侧挂盒、大型封闭顶盖与双前杆，不加入默认图没有的展开脚架或前端喇叭件。",
+    "侧边链带仅为抽象连续矩形浮雕，不建立弹药、内部供弹机构或可用接口。木纹为显式 PBR 色块和微浮雕。",
+    "按游戏双侧截图独立重建的缩比外观。未见顶部、底部、截面和局部纹理为艺术推断，未提取游戏文件。",
+    "所有前端封闭，固定装饰件，无真实枪械尺寸、可用接口或内部机构。打印为实心微缩雕塑；可选瞄具仅用于数字展示。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "大型封闭机匣",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 41,
+      "bounds_mm": [
+        [
+          -33.93347930908203,
+          -18.75,
+          12.0
+        ],
+        [
+          73.0,
+          12.610000610351562,
+          38.0
+        ]
+      ]
+    },
+    {
+      "id": "part_cover",
+      "label": "棱面顶盖",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 24,
+      "bounds_mm": [
+        [
+          -27.69312286376953,
+          -10.90999984741211,
+          35.00894546508789
+        ],
+        [
+          66.56841278076172,
+          10.90999984741211,
+          43.70000076293945
+        ]
+      ]
+    },
+    {
+      "id": "part_barrel",
+      "label": "阶梯双前杆",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 12,
+      "bounds_mm": [
+        [
+          -165.1699981689453,
+          -5.0,
+          15.5
+        ],
+        [
+          -27.0,
+          5.0,
+          33.79999923706055
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "镂空木质整托",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 54,
+      "bounds_mm": [
+        [
+          70.1502914428711,
+          -9.8100004196167,
+          -6.856178283691406
+        ],
+        [
+          165.0,
+          9.8100004196167,
+          36.0
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "木握把与固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 15,
+      "bounds_mm": [
+        [
+          27.0,
+          -7.810000419616699,
+          -26.834348678588867
+        ],
+        [
+          77.81108856201172,
+          7.810000419616699,
+          14.92162799835205
+        ]
+      ]
+    },
+    {
+      "id": "part_box",
+      "label": "橄榄绿侧挂盒",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 15,
+      "bounds_mm": [
+        [
+          -15.5,
+          -18.299999237060547,
+          -43.5
+        ],
+        [
+          23.5,
+          6.300000190734863,
+          14.0
+        ]
+      ]
+    },
+    {
+      "id": "part_belt",
+      "label": "抽象链纹浮雕",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 18,
+      "bounds_mm": [
+        [
+          -23.98333740234375,
+          -18.049999237060547,
+          -25.0
+        ],
+        [
+          3.0,
+          -6.0,
+          37.77147674560547
+        ]
+      ]
+    },
+    {
+      "id": "part_handle",
+      "label": "棕色提手装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 4,
+      "bounds_mm": [
+        [
+          -28.0,
+          -4.349999904632568,
+          36.09864044189453
+        ],
+        [
+          6.0,
+          4.349999904632568,
+          50.0
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "固定机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 6,
+      "bounds_mm": [
+        [
+          -161.0,
+          -5.0,
+          29.25
+        ],
+        [
+          44.5,
+          5.0,
+          49.70000076293945
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选数字瞄具",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 12,
+      "bounds_mm": [
+        [
+          7.224999904632568,
+          -8.25,
+          42.0
+        ],
+        [
+          51.25,
+          7.038597106933594,
+          65.25
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -165.1699981689453,
+      -18.75,
+      -43.5
+    ],
+    [
+      165.0,
+      12.610000610351562,
+      50.0
+    ]
+  ],
+  "mesh_count": 201,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

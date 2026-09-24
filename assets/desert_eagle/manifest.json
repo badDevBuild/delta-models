@@ -1,0 +1,166 @@
+{
+  "id": "desert_eagle",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 89.879,
+  "source_urls": [
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops",
+    "https://www.imfdb.org/images/thumb/f/f9/DFHO_DesertEagle.jpg/600px-DFHO_DesertEagle.jpg"
+  ],
+  "approximation": [
+    "依据游戏默认银色厚前端、斜切后壳、黑色固定小件、棕色格纹握把和底部短轨重新雕塑；未采用纯黑现实参考替代。",
+    "可选灯具为封闭不发光的数字外观附件；所有握把与壳体组均为无内部构造的实心装饰。",
+    "基于游戏双侧截图的独立缩比重建；未提取游戏资源或复刻标识。未见截面、顶部和局部细纹为艺术推断。",
+    "实心非功能外观雕塑：前端封闭、操控装饰固定，无内部机构、真实尺寸或可用接口；可选配件仅供数字展示。"
+  ],
+  "parts": [
+    {
+      "id": "part_frame",
+      "label": "银色厚框架外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 30,
+      "bounds_mm": [
+        [
+          -43.0,
+          -8.050000190734863,
+          -22.0
+        ],
+        [
+          44.599159240722656,
+          8.050000190734863,
+          23.399999618530273
+        ]
+      ]
+    },
+    {
+      "id": "part_barrel",
+      "label": "封闭方棱前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 9,
+      "bounds_mm": [
+        [
+          -45.28000259399414,
+          -7.704999923706055,
+          23.0
+        ],
+        [
+          4.928219318389893,
+          7.704999923706055,
+          34.224998474121094
+        ]
+      ]
+    },
+    {
+      "id": "part_slide",
+      "label": "银色后段外壳",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 10,
+      "bounds_mm": [
+        [
+          1.299999713897705,
+          -8.925000190734863,
+          21.999813079833984
+        ],
+        [
+          40.0,
+          8.925000190734863,
+          34.400001525878906
+        ]
+      ]
+    },
+    {
+      "id": "part_grip_panels",
+      "label": "棕色格纹握把面板",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 256,
+      "bounds_mm": [
+        [
+          19.0,
+          -8.730000495910645,
+          -20.0
+        ],
+        [
+          35.855682373046875,
+          8.730000495910645,
+          12.930347442626953
+        ]
+      ]
+    },
+    {
+      "id": "part_base",
+      "label": "黑色实心底座",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 2,
+      "bounds_mm": [
+        [
+          18.247604370117188,
+          -8.0,
+          -24.0
+        ],
+        [
+          38.77116394042969,
+          8.0,
+          -21.0
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "固定机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          -42.900001525878906,
+          -4.050000190734863,
+          34.14999771118164
+        ],
+        [
+          31.350000381469727,
+          4.050000190734863,
+          37.35000228881836
+        ]
+      ]
+    },
+    {
+      "id": "part_light",
+      "label": "可选灯具装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 6,
+      "bounds_mm": [
+        [
+          -33.98999786376953,
+          -6.024999618530273,
+          6.599999904632568
+        ],
+        [
+          -16.0,
+          6.024999618530273,
+          17.399999618530273
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -45.28000259399414,
+      -8.925000190734863,
+      -24.0
+    ],
+    [
+      44.599159240722656,
+      8.925000190734863,
+      37.35000228881836
+    ]
+  ],
+  "mesh_count": 318,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

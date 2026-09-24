@@ -1,0 +1,22 @@
+import sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from remaining_long_helpers import *
+s=new('sr9',330)
+box_receiver(s,-7,65,26)
+s.cyl('Upper round long cover','body',(17,0,34),4.5,105,s.metal,'X',.3)
+s.cyl('Green long rounded forebed','handguard',(-60,0,25),8.7,108,s.green,'X',1)
+s.box('Forebed lowered flat edge','handguard',(-57,0,19),(101,13,5),s.green,1.2)
+front(s,-150,-108,28,2.7)
+s.cyl('Fixed upper slim line','details',(-37,0,34),2.3,122,s.steel,'X',.2)
+s.box('Front handle decoration','details',(-105,-7,34),(9,4,4),s.polymer,.5)
+magazine(s,12,14,23,23,s.metal)
+o=panel(s,'stock',[(61,34),(81,30),(146,29),(149,26),(149,-10),(111,-6),(84,-23),(73,-30),(54,7)],21,s.green,1.6)
+s.cut(o,s.poly('Thumbhole exterior silhouette','stock',[(71,13),(85,13),(105,9),(95,-3),(79,-16),(72,-8),(67,4)],32,s.dark,2))
+s.box('Solid rubber shoulder edge','stock',(149,0,9),(3,22,41),s.rubber,.8)
+for sign in [-1,1]:s.box('Rectangular sling panel','stock',(116,sign*10.5,13),(16,.55,7),s.dark,.5)
+guard(s,33,12,26)
+s.box('Fixed grip heel contour','grip',(74,0,-24),(10,16,5),s.green,1)
+sights(s,-109,62,39,False)
+s.box('Fixed front sight pedestal','sights',(-106,0,36),(5,5,14),s.metal,.4)
+result=finalize(s)

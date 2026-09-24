@@ -1,0 +1,204 @@
+{
+  "id": "sr3m",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 230.11,
+  "source_urls": [
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops",
+    "https://www.imfdb.org/images/thumb/a/a9/DFHO_SR3M.jpg/600px-DFHO_SR3M.jpg"
+  ],
+  "approximation": [
+    "依据游戏短护木、斜槽、默认前竖握把、短棕黑弹匣和双杆骨架托重新建模。",
+    "上盖肋线、双侧操控为固定浅浮雕；托杆加粗作为微缩雕塑，隐藏面和细纹为艺术推断。",
+    "依据游戏默认双侧截图独立缩比重建；无资源提取，未复刻商标。顶部、隐藏面和细小材质为艺术推断。",
+    "实心非功能外观雕塑；前端封闭，无内构、实际尺寸或可用接口；可选附件仅用于数字外观展示。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "短机匣与带肋上盖",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 32,
+      "bounds_mm": [
+        [
+          -62.883522033691406,
+          -9.860000610351562,
+          19.0
+        ],
+        [
+          19.95343589782715,
+          9.860000610351562,
+          50.5
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "斜槽短护木",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 26,
+      "bounds_mm": [
+        [
+          -106.0,
+          -11.25,
+          22.004117965698242
+        ],
+        [
+          -61.0,
+          11.25,
+          49.0
+        ]
+      ]
+    },
+    {
+      "id": "part_front",
+      "label": "封闭前端与前瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 7,
+      "bounds_mm": [
+        [
+          -115.11000061035156,
+          -5.0,
+          32.900001525878906
+        ],
+        [
+          -104.30000305175781,
+          5.0,
+          53.878623962402344
+        ]
+      ]
+    },
+    {
+      "id": "part_foregrip",
+      "label": "固定前竖握把",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 22,
+      "bounds_mm": [
+        [
+          -104.0,
+          -6.5,
+          -8.859707832336426
+        ],
+        [
+          -92.12403106689453,
+          6.5,
+          28.75
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "双杆骨架后托",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 15,
+      "bounds_mm": [
+        [
+          16.5,
+          -9.010000228881836,
+          0.13294678926467896
+        ],
+        [
+          115.0,
+          9.010000228881836,
+          43.0
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "宽弧形后握把",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 19,
+      "bounds_mm": [
+        [
+          -12.743328094482422,
+          -8.1850004196167,
+          -25.923662185668945
+        ],
+        [
+          18.778926849365234,
+          8.1850004196167,
+          27.0
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "短棕黑实心弹匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 18,
+      "bounds_mm": [
+        [
+          -63.861793518066406,
+          -6.550000190734863,
+          -16.902986526489258
+        ],
+        [
+          -33.077301025390625,
+          6.550000190734863,
+          22.919763565063477
+        ]
+      ]
+    },
+    {
+      "id": "part_controls",
+      "label": "固定操控与护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 16,
+      "bounds_mm": [
+        [
+          -68.0,
+          -15.25,
+          5.0
+        ],
+        [
+          10.34000015258789,
+          15.25,
+          52.70000076293945
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选光学装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 7,
+      "bounds_mm": [
+        [
+          -28.5,
+          -5.104000091552734,
+          48.70000076293945
+        ],
+        [
+          -5.5,
+          5.0,
+          63.540000915527344
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -115.11000061035156,
+      -15.25,
+      -25.923662185668945
+    ],
+    [
+      115.0,
+      15.25,
+      53.878623962402344
+    ]
+  ],
+  "mesh_count": 162,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

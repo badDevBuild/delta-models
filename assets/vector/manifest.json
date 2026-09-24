@@ -1,0 +1,186 @@
+{
+  "id": "vector",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 192.345,
+  "source_urls": [
+    "https://zilliongamer.com/delta-force/c/weapons/best-vector-build-delta-force",
+    "https://zilliongamer.com/uploads/delta-force/weapons-builds/submachine-gun/vector/vector-delta-force-build.jpg",
+    "https://deltaforcedb.com/assets/images/weapons/vector.webp"
+  ],
+  "approximation": [
+    "实际查看 780×408 游戏基础侧视图：细长前端、阶梯形上壳、倾斜下部壳体、短弹匣、宽握把开窗与骨架枪托。",
+    "采用微缩图像比例，隐藏背面、内部遮蔽区、表面颗粒和螺钉槽为艺术推断；抽象图形替代商标与文字。",
+    "约 190 mm 实心非功能外观雕塑，前端封闭，无内部机构、真实安装配合或可动作控制件。",
+    "瞄具为可选数字外观配件。首版实体打印仅基础配置，整体融合后按左右平面胶合。"
+  ],
+  "parts": [
+    {
+      "id": "part_upper",
+      "label": "阶梯形上壳体",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 91,
+      "bounds_mm": [
+        [
+          -61.0,
+          -8.510000228881836,
+          2.200000047683716
+        ],
+        [
+          42.0,
+          8.510000228881836,
+          15.850000381469727
+        ]
+      ]
+    },
+    {
+      "id": "part_lower",
+      "label": "下部整体外观壳体",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 232,
+      "bounds_mm": [
+        [
+          -61.0,
+          -10.680000305175781,
+          -31.0
+        ],
+        [
+          14.587713241577148,
+          10.680000305175781,
+          5.5
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "倾斜握把与护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 145,
+      "bounds_mm": [
+        [
+          -1.0,
+          -7.789999961853027,
+          -32.0
+        ],
+        [
+          36.725955963134766,
+          7.789999961853027,
+          5.965410232543945
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "固定骨架枪托",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 33,
+      "bounds_mm": [
+        [
+          36.30638885498047,
+          -8.0,
+          -31.0
+        ],
+        [
+          97.17500305175781,
+          8.0,
+          10.140596389770508
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "短实心弹匣装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 12,
+      "bounds_mm": [
+        [
+          -23.0,
+          -6.625,
+          -47.483585357666016
+        ],
+        [
+          -6.0391035079956055,
+          6.625,
+          -28.0
+        ]
+      ]
+    },
+    {
+      "id": "part_muzzle",
+      "label": "细长封闭前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 7,
+      "bounds_mm": [
+        [
+          -95.16999816894531,
+          -2.700000047683716,
+          -4.599999904632568
+        ],
+        [
+          -59.60000228881836,
+          2.700000047683716,
+          0.8000001311302185
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "前后固定机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 20,
+      "bounds_mm": [
+        [
+          -57.25,
+          -5.510000228881836,
+          13.0
+        ],
+        [
+          27.25,
+          5.510000228881836,
+          25.200000762939453
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选全息瞄具装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 13,
+      "bounds_mm": [
+        [
+          -27.25,
+          -7.775000095367432,
+          15.5
+        ],
+        [
+          -9.0,
+          5.810000419616699,
+          34.0
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -95.16999816894531,
+      -10.680000305175781,
+      -47.483585357666016
+    ],
+    [
+      97.17500305175781,
+      10.680000305175781,
+      25.200000762939453
+    ]
+  ],
+  "mesh_count": 553,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

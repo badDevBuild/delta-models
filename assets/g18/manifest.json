@@ -1,0 +1,166 @@
+{
+  "id": "g18",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 69.855,
+  "source_urls": [
+    "https://xtopup.com/news/delta-force-the-most-powerful-weapons-in-the-current-version",
+    "https://global-res.xtopup.com/xw_20240604175855/sjzhd_20250212151137/delta_force_g18_202502121540.jpg",
+    "https://df-build.com/builds/g18/"
+  ],
+  "approximation": [
+    "以已查看的游戏基础黑色 G18 截图为主，保留前后套筒斜纹、倾斜握把、握把颗粒和固定瞄具。",
+    "背面、顶部、底部及颗粒排布是艺术推断；未复制商标或提取游戏资源。",
+    "约 70 mm 微缩实心装饰；套筒、弹匣和扳机均无实际运动或内部功能，灯具是可选不发光装饰。"
+  ],
+  "parts": [
+    {
+      "id": "part_frame",
+      "label": "握把与框架外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 243,
+      "bounds_mm": [
+        [
+          -31.700000762939453,
+          -7.105000019073486,
+          -22.0
+        ],
+        [
+          34.71477127075195,
+          7.105000019073486,
+          16.100000381469727
+        ]
+      ]
+    },
+    {
+      "id": "part_slide",
+      "label": "封闭套筒外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 20,
+      "bounds_mm": [
+        [
+          -32.0,
+          -7.349999904632568,
+          16.0
+        ],
+        [
+          29.704999923706055,
+          6.090000152587891,
+          25.364999771118164
+        ]
+      ]
+    },
+    {
+      "id": "part_muzzle",
+      "label": "封闭短前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 8,
+      "bounds_mm": [
+        [
+          -35.13999938964844,
+          -2.25,
+          12.800000190734863
+        ],
+        [
+          -31.399999618530273,
+          2.25,
+          23.049999237060547
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "实心弹匣底部外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 4,
+      "bounds_mm": [
+        [
+          19.141977310180664,
+          -7.0,
+          -24.299999237060547
+        ],
+        [
+          34.4390869140625,
+          7.0,
+          -20.299999237060547
+        ]
+      ]
+    },
+    {
+      "id": "part_front_sight",
+      "label": "前固定机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 3,
+      "bounds_mm": [
+        [
+          -28.649999618530273,
+          -1.7000000476837158,
+          24.849998474121094
+        ],
+        [
+          -25.350000381469727,
+          1.7000000476837158,
+          26.900001525878906
+        ]
+      ]
+    },
+    {
+      "id": "part_rear_sight",
+      "label": "后固定机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          23.0,
+          -3.5,
+          24.950000762939453
+        ],
+        [
+          27.0,
+          3.5,
+          27.25
+        ]
+      ]
+    },
+    {
+      "id": "part_light",
+      "label": "可选灯具装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 6,
+      "bounds_mm": [
+        [
+          -31.5,
+          -5.5,
+          0.19999973475933075
+        ],
+        [
+          -15.0,
+          5.5,
+          10.850000381469727
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -35.13999938964844,
+      -7.349999904632568,
+      -24.299999237060547
+    ],
+    [
+      34.71477127075195,
+      7.105000019073486,
+      27.25
+    ]
+  ],
+  "mesh_count": 289,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

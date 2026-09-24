@@ -1,0 +1,185 @@
+{
+  "id": "m1014",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 300.14,
+  "source_urls": [
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops",
+    "https://www.imfdb.org/images/thumb/1/1c/DFHO_M4S90.jpg/600px-DFHO_M4S90.jpg"
+  ],
+  "approximation": [
+    "以游戏默认传统黑色固定整托为主，保留弯颈、长双管轮廓、护木、上方窄筋与短上轨；未误用带手枪握把的改装款。",
+    "右侧窗采用封闭浅浮雕，铜色操控饰件固定；可选短瞄具为数字艺术附件。",
+    "基于游戏双侧截图的独立缩比重建；未提取游戏资源或复刻标识。未见截面、顶部和局部细纹为艺术推断。",
+    "实心非功能外观雕塑：前端封闭、操控装饰固定，无内部机构、真实尺寸或可用接口；可选配件仅供数字展示。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "封闭机匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 27,
+      "bounds_mm": [
+        [
+          -25.0,
+          -9.039999961853027,
+          3.0
+        ],
+        [
+          44.90049743652344,
+          14.25,
+          24.0
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "黑色弯颈固定枪托",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 42,
+      "bounds_mm": [
+        [
+          41.25993728637695,
+          -10.050000190734863,
+          -33.79082489013672
+        ],
+        [
+          150.0,
+          10.050000190734863,
+          18.554773330688477
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "黑色长护木",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 37,
+      "bounds_mm": [
+        [
+          -94.3499984741211,
+          -9.5600004196167,
+          1.0
+        ],
+        [
+          -20.649999618530273,
+          9.5600004196167,
+          20.0
+        ]
+      ]
+    },
+    {
+      "id": "part_barrel",
+      "label": "封闭长前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 14,
+      "bounds_mm": [
+        [
+          -150.13999938964844,
+          -3.5999999046325684,
+          20.39999771118164
+        ],
+        [
+          -24.0,
+          3.5999999046325684,
+          27.975000381469727
+        ]
+      ]
+    },
+    {
+      "id": "part_lower_tube",
+      "label": "下方实心管状装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 9,
+      "bounds_mm": [
+        [
+          -145.9949951171875,
+          -3.9000000953674316,
+          10.5
+        ],
+        [
+          -20.5,
+          3.9000000953674316,
+          25.899999618530273
+        ]
+      ]
+    },
+    {
+      "id": "part_guard",
+      "label": "固定护圈与铜色装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 3,
+      "bounds_mm": [
+        [
+          15.021221160888672,
+          -5.25,
+          -10.0
+        ],
+        [
+          40.986900329589844,
+          3.299999952316284,
+          6.0
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "机械瞄具与短上轨",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 19,
+      "bounds_mm": [
+        [
+          -137.86056518554688,
+          -4.0,
+          23.775001525878906
+        ],
+        [
+          30.837621688842773,
+          4.0,
+          33.85000228881836
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选小型瞄具",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 9,
+      "bounds_mm": [
+        [
+          -13.0,
+          -4.610000133514404,
+          25.950000762939453
+        ],
+        [
+          1.0,
+          4.610000133514404,
+          38.349998474121094
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -150.13999938964844,
+      -10.050000190734863,
+      -33.79082489013672
+    ],
+    [
+      150.0,
+      14.25,
+      33.85000228881836
+    ]
+  ],
+  "mesh_count": 160,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

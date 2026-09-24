@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+web/node_modules
+web/dist/
+web/public/downloads/
+assets/**
+!assets/
+!assets/*/
+!assets/*/manifest.json
+renders/
+reports/
+output/
+print/
+.env
+.env.local
+.env.*.local

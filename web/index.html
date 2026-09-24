@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111613" />
+  <meta name="description" content="旋转、放大和探索游戏外观缩比模型，了解形状、视角与长度。" />
+  <title>DELTA MODELS · 模型收藏馆</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#" aria-label="DELTA MODELS 模型收藏馆首页"><span class="brand-mark">∆</span><span>DELTA <b>MODELS</b></span></a>
+    <a class="text-link" href="#downloads">下载模型 <span>↗</span></a>
+  </header>
+  <main>
+    <aside class="catalog-panel" aria-label="模型目录">
+      <h1>模型目录</h1>
+      <p class="muted catalog-intro">选一件，旋转、放大、拆开看。</p>
+      <div class="catalog-filters"><label class="catalog-search">搜索模型<input id="catalog-search" type="search" placeholder="输入名称" autocomplete="off" /></label><label class="catalog-category">展品类别<select id="catalog-category"><option value="all">全部类别</option></select></label><span id="catalog-matches" aria-live="polite"></span></div>
+      <p id="catalog-filter-note" class="muted catalog-filter-note" role="status" hidden></p>
+      <nav id="catalog" class="catalog-list" aria-label="选择模型"></nav>
+      <p id="catalog-empty" class="muted" hidden>没有匹配的模型，试试其他搜索或筛选条件。</p>
+    </aside>
+    <section class="workspace" aria-label="三维展台">
+      <div class="exhibit-title"><div><span class="eyebrow" id="model-category">正在读取目录</span><h2 id="model-name">—</h2></div><div class="exhibit-nav"><button id="previous-model" aria-label="上一个模型" title="上一个模型">←</button><div class="exhibit-counter"><span id="model-index">—</span> / <span id="model-total">—</span></div><button id="next-model" aria-label="下一个模型" title="下一个模型">→</button></div></div>
+      <section id="downloads" class="download-panel" aria-labelledby="downloads-title">
+        <div class="download-copy"><h3 id="downloads-title">下载当前模型</h3><p id="model-description"></p><p id="model-note" class="muted" hidden></p></div>
+        <div class="download-actions"><a id="download-print" class="primary-download" download>↓ <span>打印文件<small>STL / 3MF</small></span><span>↗</span></a><a id="download-sliced" class="secondary-download" download hidden>P1S 切片工程 <span>↗</span></a><a id="download-blend" class="secondary-download" download>Blender 可编辑母版 <span>↗</span></a></div>
+        <p class="download-notice">模型仅限非商业使用 · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0 ↗</a></p>
+      </section>
+      <div class="stage-shell">
+        <span class="stage-word" id="stage-word" aria-hidden="true">M7</span>
+        <div id="viewer" tabindex="0" role="application" aria-label="三维模型：拖动旋转，滚轮或双指缩放；加减键缩放，R 复位，Esc 取消选择"></div>
+        <div class="stage-corner top-left"></div><div class="stage-corner top-right"></div><div class="stage-corner bottom-left"></div><div class="stage-corner bottom-right"></div>
+        <div id="loading" class="loading" role="status" aria-live="polite"><div class="spinner"></div><strong id="load-title">正在准备展台</strong><span id="load-message">即将载入模型</span><progress id="load-progress" max="100"></progress><button id="retry" hidden>重新加载</button></div>
+        <div class="stage-topline"><span id="model-size">非功能性缩比模型</span></div>
+        <div id="selection-chip" class="selection-chip" hidden><span class="status-dot"></span><span id="selected-name"></span><button id="clear-selection" aria-label="取消选择">×</button></div>
+        <div class="stage-bottomline"><span class="gesture">拖动旋转 · 滚轮缩放 · 点击选件</span><span class="gesture touch">单指旋转 · 双指缩放 · 轻点选件</span></div>
+      </div>
+      <div class="view-toolbar" aria-label="视角工具">
+        <div class="segmented"><button id="view-perspective" class="active" aria-pressed="true">透视</button><button id="view-side" aria-pressed="false">侧面</button><button id="view-top" aria-pressed="false">俯视</button></div>
+        <button id="wireframe" class="wireframe-button" aria-pressed="false" disabled>△ 显示三角网格</button>
+        <div class="tool-group"><button id="zoom-out" class="icon-button" aria-label="缩小">−</button><button id="zoom-in" class="icon-button" aria-label="放大">＋</button><span class="tool-divider"></span><button id="autorotate" aria-pressed="false">↻ <span>自动旋转</span></button><button id="reset-view">⌖ <span>复位视角</span></button></div>
+      </div>
+    </section>
+    <aside class="inspector" aria-label="组件操作">
+      <section class="inspector-section"><h3>探索构成</h3><p class="muted">展开层次，查看每一处细节。</p><div class="range-label"><label for="explode">分解程度</label><output id="explode-value" for="explode">0%</output></div><input id="explode" type="range" min="0" max="100" value="0" aria-label="分解程度" /><div class="range-ends"><span>组合</span><span>展开</span></div><button id="assemble" class="wide-button">↶ 重置模型与配件</button></section>
+      <section class="inspector-section" id="variants-section" hidden><h3>外观配置</h3><div id="variants"></div></section>
+      <section class="inspector-section components"><div class="component-heading"><h3>外观组件</h3><span id="parts-count">—</span></div><div id="parts-list" class="parts-list"></div><div class="selection-actions"><p id="component-info">点击模型或列表选择组件。</p><div class="action-pair"><button id="detach" disabled>取下组件</button><button id="isolate" disabled>单独查看</button></div></div></section>
+    </aside>
+  </main>
+  <noscript>请启用 JavaScript 以查看三维模型。打印与母版文件位于 GitHub Release。</noscript>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+{
+  "schema": "delta-six-asset/v1",
+  "id": "p90",
+  "name": "P90 · 深色基础外观",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 170,
+  "source_urls": [
+    "https://zilliongamer.com/delta-force/c/weapons/best-p90-build-delta-force",
+    "https://zilliongamer.com/uploads/delta-force/weapons-builds/submachine-gun/p90/p90-delta-force-build.jpg",
+    "https://deltaforcedb.com/weapon/p90"
+  ],
+  "approximation": [
+    "The base-appearance game image was visually inspected in the browser, and the side silhouette was hand traced as an exterior sculpture.",
+    "The dark shell, two ergonomic openings, top magazine ending at the raised rear cheek, high optic frame and short front follow that reference.",
+    "The far side, underside, depth, material roughness and small hardware are artist interpretations; no claim of exact game-mesh fidelity.",
+    "The magazine, receiver and front are filled; there are no working internal parts, firing passages or real component interfaces.",
+    "No source game mesh, game textures or original logos are embedded. Model assets are shared noncommercially under CC BY-NC 4.0, as declared by the publisher."
+  ],
+  "physical_print_tested": false,
+  "parts": [
+    {
+      "id": "part_body",
+      "key": "body",
+      "label": "聚合物一体主体",
+      "meshes": 105,
+      "bounds_mm": [
+        [
+          -84.2314682006836,
+          -10.774999618530273,
+          -32.33695602416992
+        ],
+        [
+          83.30760192871094,
+          10.774999618530273,
+          13.858695983886719
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_magazine",
+      "key": "magazine",
+      "label": "上置实心弹匣外观",
+      "meshes": 23,
+      "bounds_mm": [
+        [
+          -59.48462677001953,
+          -9.600000381469727,
+          4.003623008728027
+        ],
+        [
+          29.2043399810791,
+          9.600000381469727,
+          14.628623962402344
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_upper",
+      "key": "upper",
+      "label": "高架外观框架",
+      "meshes": 17,
+      "bounds_mm": [
+        [
+          -72.54972839355469,
+          -7.400000095367432,
+          -2.755464553833008
+        ],
+        [
+          -12.828447341918945,
+          7.400000095367432,
+          20.56440544128418
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_sight",
+      "key": "sight",
+      "label": "固定一体瞄具",
+      "meshes": 38,
+      "bounds_mm": [
+        [
+          -71.75225830078125,
+          -7.389999866485596,
+          16.938405990600586
+        ],
+        [
+          -18.934900283813477,
+          7.389999866485596,
+          31.066421508789062
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_barrel",
+      "key": "barrel",
+      "label": "封口短前端",
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          -80.68463897705078,
+          -2.9000000953674316,
+          -2.284058094024658
+        ],
+        [
+          -67.63109588623047,
+          2.9000000953674316,
+          3.515942096710205
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    },
+    {
+      "id": "part_butt",
+      "key": "butt",
+      "label": "后端胶垫",
+      "meshes": 19,
+      "bounds_mm": [
+        [
+          79.25598907470703,
+          -9.300000190734863,
+          -24.329710006713867
+        ],
+        [
+          85.76853942871094,
+          9.300000190734863,
+          13.057319641113281
+        ]
+      ],
+      "default_visible": true,
+      "variant": "base"
+    }
+  ],
+  "bounds_mm": [
+    [
+      -84.2314682006836,
+      -10.774999618530273,
+      -32.33695602416992
+    ],
+    [
+      85.76853942871094,
+      10.774999618530273,
+      31.066421508789062
+    ]
+  ],
+  "measured_length_mm": 170.00000762939453,
+  "mesh_count": 207,
+  "glb_bytes": 2935784,
+  "glb_sha256": "5a4bdd5d7620475d392045fa1a635da915e6c0e9fad6483e6dcd35013c41698b",
+  "artifacts": {
+    "blend": "source/p90.blend",
+    "glb": "web/p90.glb",
+    "studio": "renders/studio.png",
+    "side": "renders/side.png"
+  },
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

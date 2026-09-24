@@ -1,0 +1,2485 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-23",
+  "models": [
+    {
+      "id": "m7",
+      "name": "M7",
+      "category": "战斗步枪",
+      "description": "长护木、骨架枪托与可切换配件",
+      "lengthMm": 300,
+      "batch": 1,
+      "model": "/models/m7.glb",
+      "preview": "/previews/m7.png",
+      "downloads": {
+        "blend": "/downloads/m7.blend",
+        "print": "/downloads/m7-print.zip",
+        "sliced": "/downloads/m7-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "akm",
+      "name": "AKM",
+      "category": "突击步枪",
+      "description": "木质护木、整托与弯曲弹匣轮廓",
+      "lengthMm": 294,
+      "batch": 1,
+      "model": "/models/akm.glb",
+      "preview": "/previews/akm.png",
+      "downloads": {
+        "blend": "/downloads/akm.blend",
+        "print": "/downloads/akm-print.zip",
+        "sliced": "/downloads/akm-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "p90",
+      "name": "P90",
+      "category": "冲锋枪",
+      "description": "紧凑一体外壳与横置弹匣轮廓",
+      "lengthMm": 170,
+      "batch": 1,
+      "model": "/models/p90.glb",
+      "preview": "/previews/p90.png",
+      "downloads": {
+        "blend": "/downloads/p90.blend",
+        "print": "/downloads/p90-print.zip",
+        "sliced": "/downloads/p90-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "awm",
+      "name": "AWM",
+      "category": "狙击步枪",
+      "description": "橄榄色拇指孔托与长瞄具外观",
+      "lengthMm": 390.0,
+      "batch": 1,
+      "model": "/models/awm.glb",
+      "preview": "/previews/awm.png",
+      "downloads": {
+        "blend": "/downloads/awm.blend",
+        "print": "/downloads/awm-print.zip",
+        "sliced": "/downloads/awm-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m870",
+      "name": "M870",
+      "category": "霰弹枪",
+      "description": "木质泵动护木与传统整托外观",
+      "lengthMm": 330.09,
+      "batch": 1,
+      "model": "/models/m870.glb",
+      "preview": "/previews/m870.png",
+      "downloads": {
+        "blend": "/downloads/m870.blend",
+        "print": "/downloads/m870-print.zip",
+        "sliced": "/downloads/m870-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "g18",
+      "name": "G18",
+      "category": "手枪",
+      "description": "紧凑黑色滑套与纹理握把外观",
+      "lengthMm": 69.855,
+      "batch": 1,
+      "model": "/models/g18.glb",
+      "preview": "/previews/g18.png",
+      "downloads": {
+        "blend": "/downloads/g18.blend",
+        "print": "/downloads/g18-print.zip",
+        "sliced": "/downloads/g18-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m4a1",
+      "name": "M4A1",
+      "category": "突击步枪",
+      "description": "模块化外壳、护木与伸缩尾托轮廓",
+      "lengthMm": 300.0,
+      "batch": 2,
+      "model": "/models/m4a1.glb",
+      "preview": "/previews/m4a1.png",
+      "downloads": {
+        "blend": "/downloads/m4a1.blend",
+        "print": "/downloads/m4a1-print.zip",
+        "sliced": "/downloads/m4a1-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "scarh",
+      "name": "SCAR-H",
+      "category": "战斗步枪",
+      "description": "宽厚上机匣、分层色块与折叠尾托外观",
+      "lengthMm": 300.11,
+      "batch": 2,
+      "model": "/models/scarh.glb",
+      "preview": "/previews/scarh.png",
+      "downloads": {
+        "blend": "/downloads/scarh.blend",
+        "print": "/downloads/scarh-print.zip",
+        "sliced": "/downloads/scarh-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "mp5",
+      "name": "MP5",
+      "category": "冲锋枪",
+      "description": "紧凑管状机匣、环形瞄具与弧形弹匣外观",
+      "lengthMm": 196.21,
+      "batch": 2,
+      "model": "/models/mp5.glb",
+      "preview": "/previews/mp5.png",
+      "downloads": {
+        "blend": "/downloads/mp5.blend",
+        "print": "/downloads/mp5-print.zip",
+        "sliced": "/downloads/mp5-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "vector",
+      "name": "Vector",
+      "category": "冲锋枪",
+      "description": "折线式壳体、垂直弹匣与紧凑前端",
+      "lengthMm": 192.345,
+      "batch": 2,
+      "model": "/models/vector.glb",
+      "preview": "/previews/vector.png",
+      "downloads": {
+        "blend": "/downloads/vector.blend",
+        "print": "/downloads/vector-print.zip",
+        "sliced": "/downloads/vector-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "svd",
+      "name": "SVD",
+      "category": "狙击步枪",
+      "description": "细长前端、镂空尾托与侧置瞄具轮廓",
+      "lengthMm": 380.061,
+      "batch": 2,
+      "model": "/models/svd.glb",
+      "preview": "/previews/svd.png",
+      "downloads": {
+        "blend": "/downloads/svd.blend",
+        "print": "/downloads/svd-print.zip",
+        "sliced": "/downloads/svd-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m249",
+      "name": "M249",
+      "category": "轻机枪",
+      "description": "宽大机匣、实心弹箱外观与携行提把",
+      "lengthMm": 320.051,
+      "batch": 2,
+      "model": "/models/m249.glb",
+      "preview": "/previews/m249.png",
+      "downloads": {
+        "blend": "/downloads/m249.blend",
+        "print": "/downloads/m249-print.zip",
+        "sliced": "/downloads/m249-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "ak12",
+      "name": "AK-12",
+      "category": "突击步枪",
+      "description": "现代折叠托、分层护木与弯曲弹匣外观",
+      "lengthMm": 300.4,
+      "batch": 3,
+      "model": "/models/ak12.glb",
+      "preview": "/previews/ak12.png",
+      "downloads": {
+        "blend": "/downloads/ak12.blend",
+        "print": "/downloads/ak12-print.zip",
+        "sliced": "/downloads/ak12-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "aug",
+      "name": "AUG",
+      "category": "突击步枪",
+      "description": "无托式轮廓、后置弹匣与整体聚合物壳体",
+      "lengthMm": 279.948,
+      "batch": 3,
+      "model": "/models/aug.glb",
+      "preview": "/previews/aug.png",
+      "downloads": {
+        "blend": "/downloads/aug.blend",
+        "print": "/downloads/aug-print.zip",
+        "sliced": "/downloads/aug-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "asval",
+      "name": "AS Val",
+      "category": "突击步枪",
+      "description": "粗长封闭前端、骨架尾托与短护木外观",
+      "lengthMm": 290.45,
+      "batch": 3,
+      "model": "/models/asval.glb",
+      "preview": "/previews/asval.png",
+      "downloads": {
+        "blend": "/downloads/asval.blend",
+        "print": "/downloads/asval-print.zip",
+        "sliced": "/downloads/asval-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "k416",
+      "name": "K416",
+      "category": "突击步枪",
+      "description": "短四面护木、分层机匣与宽厚尾托外观",
+      "lengthMm": 300.4,
+      "batch": 3,
+      "model": "/models/k416.glb",
+      "preview": "/previews/k416.png",
+      "downloads": {
+        "blend": "/downloads/k416.blend",
+        "print": "/downloads/k416-print.zip",
+        "sliced": "/downloads/k416-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "mp7",
+      "name": "MP7",
+      "category": "冲锋枪",
+      "description": "紧凑矩形外壳、中央握把与细杆尾托",
+      "lengthMm": 169.35,
+      "batch": 3,
+      "model": "/models/mp7.glb",
+      "preview": "/previews/mp7.png",
+      "downloads": {
+        "blend": "/downloads/mp7.blend",
+        "print": "/downloads/mp7-print.zip",
+        "sliced": "/downloads/mp7-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "uzi",
+      "name": "UZI",
+      "category": "冲锋枪",
+      "description": "方盒式机匣、握把式弹匣与木制固定枪托",
+      "lengthMm": 160.081,
+      "batch": 3,
+      "model": "/models/uzi.glb",
+      "preview": "/previews/uzi.png",
+      "downloads": {
+        "blend": "/downloads/uzi.blend",
+        "print": "/downloads/uzi-print.zip",
+        "sliced": "/downloads/uzi-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "bizon",
+      "name": "野牛",
+      "category": "冲锋枪",
+      "description": "下置圆筒装饰、紧凑护木与骨架枪托",
+      "lengthMm": 219.1,
+      "batch": 3,
+      "model": "/models/bizon.glb",
+      "preview": "/previews/bizon.png",
+      "downloads": {
+        "blend": "/downloads/bizon.blend",
+        "print": "/downloads/bizon-print.zip",
+        "sliced": "/downloads/bizon-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "thompson",
+      "name": "汤姆逊",
+      "category": "冲锋枪",
+      "description": "经典长机匣、木质护木与弧线尾托",
+      "lengthMm": 280.1,
+      "batch": 3,
+      "model": "/models/thompson.glb",
+      "preview": "/previews/thompson.png",
+      "downloads": {
+        "blend": "/downloads/thompson.blend",
+        "print": "/downloads/thompson-print.zip",
+        "sliced": "/downloads/thompson-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m14",
+      "name": "M14",
+      "category": "射手步枪",
+      "description": "传统长托、上部金属层次与直身弹匣",
+      "lengthMm": 340.14,
+      "batch": 3,
+      "model": "/models/m14.glb",
+      "preview": "/previews/m14.png",
+      "downloads": {
+        "blend": "/downloads/m14.blend",
+        "print": "/downloads/m14-print.zip",
+        "sliced": "/downloads/m14-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "sks",
+      "name": "SKS",
+      "category": "射手步枪",
+      "description": "连贯木质长托与细长金属前端",
+      "lengthMm": 350.14,
+      "batch": 3,
+      "model": "/models/sks.glb",
+      "preview": "/previews/sks.png",
+      "downloads": {
+        "blend": "/downloads/sks.blend",
+        "print": "/downloads/sks-print.zip",
+        "sliced": "/downloads/sks-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m1014",
+      "name": "M1014",
+      "category": "霰弹枪",
+      "description": "上下并行前端、分段护木与黑色固定整托",
+      "lengthMm": 300.14,
+      "batch": 3,
+      "model": "/models/m1014.glb",
+      "preview": "/previews/m1014.png",
+      "downloads": {
+        "blend": "/downloads/m1014.blend",
+        "print": "/downloads/m1014-print.zip",
+        "sliced": "/downloads/m1014-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "desert_eagle",
+      "name": "沙漠之鹰",
+      "category": "手枪",
+      "description": "宽厚棱面上壳、分层前端与纹理握把",
+      "lengthMm": 89.879,
+      "batch": 3,
+      "model": "/models/desert_eagle.glb",
+      "preview": "/previews/desert_eagle.png",
+      "downloads": {
+        "blend": "/downloads/desert_eagle.blend",
+        "print": "/downloads/desert_eagle-print.zip",
+        "sliced": "/downloads/desert_eagle-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "aks74u",
+      "name": "AKS-74U",
+      "category": "突击步枪",
+      "description": "短护木、折线机匣与金属骨架枪托",
+      "lengthMm": 230.075,
+      "batch": 4,
+      "model": "/models/aks74u.glb",
+      "preview": "/previews/aks74u.png",
+      "downloads": {
+        "blend": "/downloads/aks74u.blend",
+        "print": "/downloads/aks74u-print.zip",
+        "sliced": "/downloads/aks74u-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m16a4",
+      "name": "M16A4",
+      "category": "突击步枪",
+      "description": "长护木、提把轮廓与固定整托",
+      "lengthMm": 330.615,
+      "batch": 4,
+      "model": "/models/m16a4.glb",
+      "preview": "/previews/m16a4.png",
+      "downloads": {
+        "blend": "/downloads/m16a4.blend",
+        "print": "/downloads/m16a4-print.zip",
+        "sliced": "/downloads/m16a4-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "g3",
+      "name": "G3",
+      "category": "战斗步枪",
+      "description": "细长机匣、聚合物护木与直身弹匣",
+      "lengthMm": 340.79,
+      "batch": 4,
+      "model": "/models/g3.glb",
+      "preview": "/previews/g3.png",
+      "downloads": {
+        "blend": "/downloads/g3.blend",
+        "print": "/downloads/g3-print.zip",
+        "sliced": "/downloads/g3-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "qbz95",
+      "name": "QBZ95-1",
+      "category": "突击步枪",
+      "description": "高提把、无托式机身与后置弹匣",
+      "lengthMm": 270.58,
+      "batch": 4,
+      "model": "/models/qbz95.glb",
+      "preview": "/previews/qbz95.png",
+      "downloads": {
+        "blend": "/downloads/qbz95.blend",
+        "print": "/downloads/qbz95-print.zip",
+        "sliced": "/downloads/qbz95-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "smg45",
+      "name": "SMG-45",
+      "category": "冲锋枪",
+      "description": "长条护木、细长弧形弹匣与镂空三角尾托",
+      "lengthMm": 230.135,
+      "batch": 4,
+      "model": "/models/smg45.glb",
+      "preview": "/previews/smg45.png",
+      "downloads": {
+        "blend": "/downloads/smg45.blend",
+        "print": "/downloads/smg45-print.zip",
+        "sliced": "/downloads/smg45-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "sr3m",
+      "name": "SR-3M",
+      "category": "冲锋枪",
+      "description": "短轨护木、前握把与双杆骨架枪托",
+      "lengthMm": 230.11,
+      "batch": 4,
+      "model": "/models/sr3m.glb",
+      "preview": "/previews/sr3m.png",
+      "downloads": {
+        "blend": "/downloads/sr3m.blend",
+        "print": "/downloads/sr3m-print.zip",
+        "sliced": "/downloads/sr3m-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m1911",
+      "name": "M1911",
+      "category": "手枪",
+      "description": "黑色斜纹滑套与橄榄棕格纹握把",
+      "lengthMm": 85.44,
+      "batch": 4,
+      "model": "/models/m1911.glb",
+      "preview": "/previews/m1911.png",
+      "downloads": {
+        "blend": "/downloads/m1911.blend",
+        "print": "/downloads/m1911-print.zip",
+        "sliced": "/downloads/m1911-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "revolver357",
+      "name": ".357 左轮",
+      "category": "手枪",
+      "description": "银灰长前端、实心圆筒与木棕弯曲握把",
+      "lengthMm": 99.897,
+      "batch": 4,
+      "model": "/models/revolver357.glb",
+      "preview": "/previews/revolver357.png",
+      "downloads": {
+        "blend": "/downloads/revolver357.blend",
+        "print": "/downloads/revolver357-print.zip",
+        "sliced": "/downloads/revolver357-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m700",
+      "name": "M700",
+      "category": "狙击步枪",
+      "description": "细长金属前端与传统长托轮廓",
+      "lengthMm": 350.17,
+      "batch": 4,
+      "model": "/models/m700.glb",
+      "preview": "/previews/m700.png",
+      "downloads": {
+        "blend": "/downloads/m700.blend",
+        "print": "/downloads/m700-print.zip",
+        "sliced": "/downloads/m700-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "sv98",
+      "name": "SV-98",
+      "category": "狙击步枪",
+      "description": "螺旋浅纹前杆、金属底盘与可调骨架托",
+      "lengthMm": 350.17,
+      "batch": 4,
+      "model": "/models/sv98.glb",
+      "preview": "/previews/sv98.png",
+      "downloads": {
+        "blend": "/downloads/sv98.blend",
+        "print": "/downloads/sv98-print.zip",
+        "sliced": "/downloads/sv98-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "pkm",
+      "name": "PKM",
+      "category": "轻机枪",
+      "description": "长机匣、绿色侧盒与木制镂空枪托",
+      "lengthMm": 330.17,
+      "batch": 4,
+      "model": "/models/pkm.glb",
+      "preview": "/previews/pkm.png",
+      "downloads": {
+        "blend": "/downloads/pkm.blend",
+        "print": "/downloads/pkm-print.zip",
+        "sliced": "/downloads/pkm-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "s12k",
+      "name": "S12K",
+      "category": "霰弹枪",
+      "description": "带槽方护木、短斜匣与黑色固定整托",
+      "lengthMm": 300.17,
+      "batch": 4,
+      "model": "/models/s12k.glb",
+      "preview": "/previews/s12k.png",
+      "downloads": {
+        "blend": "/downloads/s12k.blend",
+        "print": "/downloads/s12k-print.zip",
+        "sliced": "/downloads/s12k-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "ar57",
+      "name": "AR57",
+      "category": "突击步枪",
+      "description": "顶置烟棕长匣、点纹护木与分段窄尾托",
+      "lengthMm": 299.65,
+      "batch": 5,
+      "model": "/models/ar57.glb",
+      "preview": "/previews/ar57.png",
+      "downloads": {
+        "blend": "/downloads/ar57.blend",
+        "print": "/downloads/ar57-print.zip",
+        "sliced": "/downloads/ar57-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "ash12",
+      "name": "ASh-12",
+      "category": "战斗步枪",
+      "description": "宽扁无托机身、高提把与前置握把",
+      "lengthMm": 279.1,
+      "batch": 5,
+      "model": "/models/ash12.glb",
+      "preview": "/previews/ash12.png",
+      "downloads": {
+        "blend": "/downloads/ash12.blend",
+        "print": "/downloads/ash12-print.zip",
+        "sliced": "/downloads/ash12-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "car15",
+      "name": "CAR-15",
+      "category": "突击步枪",
+      "description": "短圆肋护木、高提把与细长后托",
+      "lengthMm": 269.86,
+      "batch": 5,
+      "model": "/models/car15.glb",
+      "preview": "/previews/car15.png",
+      "downloads": {
+        "blend": "/downloads/car15.blend",
+        "print": "/downloads/car15-print.zip",
+        "sliced": "/downloads/car15-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "ci19",
+      "name": "腾龙（CI-19）",
+      "category": "突击步枪",
+      "description": "长前杆、短肋护木与长弧格纹匣",
+      "lengthMm": 299.86,
+      "batch": 5,
+      "model": "/models/ci19.glb",
+      "preview": "/previews/ci19.png",
+      "downloads": {
+        "blend": "/downloads/ci19.blend",
+        "print": "/downloads/ci19-print.zip",
+        "sliced": "/downloads/ci19-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "k437",
+      "name": "K437",
+      "category": "突击步枪",
+      "description": "宽折面上壳、斜槽护木与交叉纹匣",
+      "lengthMm": 299.133,
+      "batch": 5,
+      "model": "/models/k437.glb",
+      "preview": "/previews/k437.png",
+      "downloads": {
+        "blend": "/downloads/k437.blend",
+        "print": "/downloads/k437-print.zip",
+        "sliced": "/downloads/k437-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "kc17",
+      "name": "KC17",
+      "category": "突击步枪",
+      "description": "一体上壳、长条护木盲槽与长弧匣",
+      "lengthMm": 299.86,
+      "batch": 5,
+      "model": "/models/kc17.glb",
+      "preview": "/previews/kc17.png",
+      "downloads": {
+        "blend": "/downloads/kc17.blend",
+        "print": "/downloads/kc17-print.zip",
+        "sliced": "/downloads/kc17-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "mcxlt",
+      "name": "MCX LT",
+      "category": "突击步枪",
+      "description": "短护木、直格纹匣与细杆开窗托；背面含推断",
+      "lengthMm": 299.134,
+      "batch": 5,
+      "model": "/models/mcxlt.glb",
+      "preview": "/previews/mcxlt.png",
+      "downloads": {
+        "blend": "/downloads/mcxlt.blend",
+        "print": "/downloads/mcxlt-print.zip",
+        "sliced": "/downloads/mcxlt-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "mdr",
+      "name": "MDR",
+      "category": "突击步枪",
+      "description": "沙色无托轮廓、短前端与后置方匣",
+      "lengthMm": 280.0,
+      "batch": 5,
+      "model": "/models/mdr.glb",
+      "preview": "/previews/mdr.png",
+      "downloads": {
+        "blend": "/downloads/mdr.blend",
+        "print": "/downloads/mdr-print.zip",
+        "sliced": "/downloads/mdr-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "mk47",
+      "name": "MK47",
+      "category": "突击步枪",
+      "description": "长槽护木、短弯格纹匣与三角尾托",
+      "lengthMm": 299.86,
+      "batch": 5,
+      "model": "/models/mk47.glb",
+      "preview": "/previews/mk47.png",
+      "downloads": {
+        "blend": "/downloads/mk47.blend",
+        "print": "/downloads/mk47-print.zip",
+        "sliced": "/downloads/mk47-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "ptr32",
+      "name": "PTR-32",
+      "category": "突击步枪",
+      "description": "棕木窄护木、长弧压纹匣与黑色整托",
+      "lengthMm": 299.15,
+      "batch": 5,
+      "model": "/models/ptr32.glb",
+      "preview": "/previews/ptr32.png",
+      "downloads": {
+        "blend": "/downloads/ptr32.blend",
+        "print": "/downloads/ptr32-print.zip",
+        "sliced": "/downloads/ptr32-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "rm277",
+      "name": "RM277",
+      "category": "战斗步枪",
+      "description": "沙色长无托机身；参考展示配置重建",
+      "lengthMm": 290.0,
+      "batch": 5,
+      "model": "/models/rm277.glb",
+      "preview": "/previews/rm277.png",
+      "downloads": {
+        "blend": "/downloads/rm277.blend",
+        "print": "/downloads/rm277-print.zip",
+        "sliced": "/downloads/rm277-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "sg552",
+      "name": "SG552",
+      "category": "突击步枪",
+      "description": "圆点护木、短斜匣与宽三角托",
+      "lengthMm": 299.85,
+      "batch": 5,
+      "model": "/models/sg552.glb",
+      "preview": "/previews/sg552.png",
+      "downloads": {
+        "blend": "/downloads/sg552.blend",
+        "print": "/downloads/sg552-print.zip",
+        "sliced": "/downloads/sg552-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "mk4",
+      "name": "MK4",
+      "category": "冲锋枪",
+      "description": "紧凑上壳、细长直匣；默认细节含推断",
+      "lengthMm": 230.0,
+      "batch": 5,
+      "model": "/models/mk4.glb",
+      "preview": "/previews/mk4.png",
+      "downloads": {
+        "blend": "/downloads/mk4.blend",
+        "print": "/downloads/mk4-print.zip",
+        "sliced": "/downloads/mk4-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "qcq171",
+      "name": "QCQ171",
+      "category": "冲锋枪",
+      "description": "短方护木、弧匣与银灰双杆托",
+      "lengthMm": 230.0,
+      "batch": 5,
+      "model": "/models/qcq171.glb",
+      "preview": "/previews/qcq171.png",
+      "downloads": {
+        "blend": "/downloads/qcq171.blend",
+        "print": "/downloads/qcq171-print.zip",
+        "sliced": "/downloads/qcq171-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "vityaz",
+      "name": "勇士",
+      "category": "冲锋枪",
+      "description": "短黑护木、细长弧匣与三角骨架托",
+      "lengthMm": 240.0,
+      "batch": 5,
+      "model": "/models/vityaz.glb",
+      "preview": "/previews/vityaz.png",
+      "downloads": {
+        "blend": "/downloads/vityaz.blend",
+        "print": "/downloads/vityaz-print.zip",
+        "sliced": "/downloads/vityaz-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m250",
+      "name": "M250",
+      "category": "轻机枪",
+      "description": "沙色长护木、织物方盒与折叠双杆",
+      "lengthMm": 330.66,
+      "batch": 5,
+      "model": "/models/m250.glb",
+      "preview": "/previews/m250.png",
+      "downloads": {
+        "blend": "/downloads/m250.blend",
+        "print": "/downloads/m250-print.zip",
+        "sliced": "/downloads/m250-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "qjb201",
+      "name": "QJB201",
+      "category": "轻机枪",
+      "description": "黑色阶梯机身、绿软盒与三角框托",
+      "lengthMm": 330.66,
+      "batch": 5,
+      "model": "/models/qjb201.glb",
+      "preview": "/previews/qjb201.png",
+      "downloads": {
+        "blend": "/downloads/qjb201.blend",
+        "print": "/downloads/qjb201-print.zip",
+        "sliced": "/downloads/qjb201-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "mini14",
+      "name": "Mini-14",
+      "category": "射手步枪",
+      "description": "棕木连体前床、整托与细长前杆",
+      "lengthMm": 320.533,
+      "batch": 5,
+      "model": "/models/mini14.glb",
+      "preview": "/previews/mini14.png",
+      "downloads": {
+        "blend": "/downloads/mini14.blend",
+        "print": "/downloads/mini14-print.zip",
+        "sliced": "/downloads/mini14-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "psg1",
+      "name": "PSG-1",
+      "category": "射手步枪",
+      "description": "长楔形护木、棕掌托握把与方形贴腮托",
+      "lengthMm": 351.283,
+      "batch": 5,
+      "model": "/models/psg1.glb",
+      "preview": "/previews/psg1.png",
+      "downloads": {
+        "blend": "/downloads/psg1.blend",
+        "print": "/downloads/psg1-print.zip",
+        "sliced": "/downloads/psg1-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "sr25",
+      "name": "SR-25",
+      "category": "射手步枪",
+      "description": "长矩形护木、短直匣与固定黑色整托",
+      "lengthMm": 330.66,
+      "batch": 5,
+      "model": "/models/sr25.glb",
+      "preview": "/previews/sr25.png",
+      "downloads": {
+        "blend": "/downloads/sr25.blend",
+        "print": "/downloads/sr25-print.zip",
+        "sliced": "/downloads/sr25-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "sr9",
+      "name": "SR9",
+      "category": "射手步枪",
+      "description": "暗绿长圆护木、拇指孔整托与短直匣",
+      "lengthMm": 330.66,
+      "batch": 5,
+      "model": "/models/sr9.glb",
+      "preview": "/previews/sr9.png",
+      "downloads": {
+        "blend": "/downloads/sr9.blend",
+        "print": "/downloads/sr9-print.zip",
+        "sliced": "/downloads/sr9-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "svch",
+      "name": "SVCH",
+      "category": "射手步枪",
+      "description": "宣传配置重建：前握框与骨架托，默认配置未确认",
+      "lengthMm": 330.66,
+      "batch": 5,
+      "model": "/models/svch.glb",
+      "preview": "/previews/svch.png",
+      "downloads": {
+        "blend": "/downloads/svch.blend",
+        "print": "/downloads/svch-print.zip",
+        "sliced": "/downloads/svch-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "vss",
+      "name": "VSS",
+      "category": "射手步枪",
+      "description": "粗圆前端、短竖纹护木与木色双镂空托",
+      "lengthMm": 300.6,
+      "batch": 5,
+      "model": "/models/vss.glb",
+      "preview": "/previews/vss.png",
+      "downloads": {
+        "blend": "/downloads/vss.blend",
+        "print": "/downloads/vss-print.zip",
+        "sliced": "/downloads/vss-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "marlin",
+      "name": "杠杆式步枪（Marlin）",
+      "category": "杠杆步枪",
+      "description": "黑色弯颈整托、双前杆与大环装饰",
+      "lengthMm": 320.533,
+      "batch": 5,
+      "model": "/models/marlin.glb",
+      "preview": "/previews/marlin.png",
+      "downloads": {
+        "blend": "/downloads/marlin.blend",
+        "print": "/downloads/marlin-print.zip",
+        "sliced": "/downloads/marlin-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "m82",
+      "name": "M82",
+      "category": "狙击步枪",
+      "description": "长箱形上壳、封闭前块与折叠双杆",
+      "lengthMm": 361.5,
+      "batch": 5,
+      "model": "/models/m82.glb",
+      "preview": "/previews/m82.png",
+      "downloads": {
+        "blend": "/downloads/m82.blend",
+        "print": "/downloads/m82-print.zip",
+        "sliced": "/downloads/m82-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "r93",
+      "name": "R93",
+      "category": "狙击步枪",
+      "description": "精密整托、长细前杆与高贴腮面",
+      "lengthMm": 350.7,
+      "batch": 5,
+      "model": "/models/r93.glb",
+      "preview": "/previews/r93.png",
+      "downloads": {
+        "blend": "/downloads/r93.blend",
+        "print": "/downloads/r93-print.zip",
+        "sliced": "/downloads/r93-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "shotgun725",
+      "name": "725",
+      "category": "霰弹枪",
+      "description": "长双前杆、银灰短机身与弯颈木托",
+      "lengthMm": 330.0,
+      "batch": 5,
+      "model": "/models/shotgun725.glb",
+      "preview": "/previews/shotgun725.png",
+      "downloads": {
+        "blend": "/downloads/shotgun725.blend",
+        "print": "/downloads/shotgun725-print.zip",
+        "sliced": "/downloads/shotgun725-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "fs12",
+      "name": "FS-12",
+      "category": "霰弹枪",
+      "description": "银灰斜肩机身、双前杆；尾托细节含推断",
+      "lengthMm": 280.0,
+      "batch": 5,
+      "model": "/models/fs12.glb",
+      "preview": "/previews/fs12.png",
+      "downloads": {
+        "blend": "/downloads/fs12.blend",
+        "print": "/downloads/fs12-print.zip",
+        "sliced": "/downloads/fs12-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "pistol93r",
+      "name": "93R",
+      "category": "手枪",
+      "description": "上部凹面、实心金属脊与后斜纹",
+      "lengthMm": 90.0,
+      "batch": 5,
+      "model": "/models/pistol93r.glb",
+      "preview": "/previews/pistol93r.png",
+      "downloads": {
+        "blend": "/downloads/pistol93r.blend",
+        "print": "/downloads/pistol93r-print.zip",
+        "sliced": "/downloads/pistol93r-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "g17",
+      "name": "G17",
+      "category": "手枪",
+      "description": "平直滑套、后直纹与斜握把点纹",
+      "lengthMm": 80.0,
+      "batch": 5,
+      "model": "/models/g17.glb",
+      "preview": "/previews/g17.png",
+      "downloads": {
+        "blend": "/downloads/g17.blend",
+        "print": "/downloads/g17-print.zip",
+        "sliced": "/downloads/g17-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    },
+    {
+      "id": "qsz92g",
+      "name": "QSZ92G",
+      "category": "手枪",
+      "description": "前斜切滑套、后斜纹与近直立握把",
+      "lengthMm": 80.0,
+      "batch": 5,
+      "model": "/models/qsz92g.glb",
+      "preview": "/previews/qsz92g.png",
+      "downloads": {
+        "blend": "/downloads/qsz92g.blend",
+        "print": "/downloads/qsz92g-print.zip",
+        "sliced": "/downloads/qsz92g-sliced.zip"
+      },
+      "status": {
+        "geometry": {
+          "state": "passed",
+          "label": "打印网格已验证",
+          "detail": "实际 STL/3MF 读回，封闭性、连通性、正体积与尺寸检查。"
+        },
+        "slicing": {
+          "state": "passed",
+          "label": "切片已验证",
+          "detail": ""
+        },
+        "physical": {
+          "state": "pending",
+          "label": "未实机打印",
+          "detail": "按当前安排先制作数字模型，实机验证留待后续。"
+        },
+        "rights": {
+          "state": "passed",
+          "label": "发布者声明已取得非商业分享授权",
+          "detail": "发布者声明已取得非商业下载、修改和再分发授权；模型资产按 CC BY-NC 4.0 分享。"
+        }
+      }
+    }
+  ]
+}

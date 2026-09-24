@@ -1,0 +1,185 @@
+{
+  "id": "m700",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 350.17,
+  "source_urls": [
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops",
+    "https://www.imfdb.org/images/thumb/5/5f/DFHO_R700.jpg/600px-DFHO_R700.jpg"
+  ],
+  "approximation": [
+    "保留游戏默认红棕木整托、尾部卡其绑带、细长前杆、短顶轨与机械瞄具；默认无望远瞄具。",
+    "木纹为可移植 PBR 色块与微浮雕，不依赖 Blender 程序纹理；微纹理仅用于数字展示。",
+    "按游戏双侧截图独立重建的缩比外观。未见顶部、底部、截面和局部纹理为艺术推断，未提取游戏文件。",
+    "所有前端封闭，固定装饰件，无真实枪械尺寸、可用接口或内部机构。打印为实心微缩雕塑；可选瞄具仅用于数字展示。"
+  ],
+  "parts": [
+    {
+      "id": "part_body",
+      "label": "红棕木质前床",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 57,
+      "bounds_mm": [
+        [
+          -98.0,
+          -9.210000038146973,
+          11.259726524353027
+        ],
+        [
+          78.43985748291016,
+          9.210000038146973,
+          30.0
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "弯颈木整托与绑带",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 176,
+      "bounds_mm": [
+        [
+          65.16106414794922,
+          -10.290030479431152,
+          -16.846607208251953
+        ],
+        [
+          175.0,
+          10.290030479431152,
+          28.0
+        ]
+      ]
+    },
+    {
+      "id": "part_receiver",
+      "label": "封闭圆弧机匣",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 8,
+      "bounds_mm": [
+        [
+          -20.0,
+          -12.800000190734863,
+          14.700000762939453
+        ],
+        [
+          70.0,
+          5.75,
+          36.10000228881836
+        ]
+      ]
+    },
+    {
+      "id": "part_barrel",
+      "label": "封闭细长前杆",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 2,
+      "bounds_mm": [
+        [
+          -175.1699981689453,
+          -3.6979968547821045,
+          27.302000045776367
+        ],
+        [
+          -19.0,
+          3.6979968547821045,
+          34.698001861572266
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "短底片装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 3,
+      "bounds_mm": [
+        [
+          1.0,
+          -5.549999713897705,
+          13.014055252075195
+        ],
+        [
+          32.87578201293945,
+          5.549999713897705,
+          16.985490798950195
+        ]
+      ]
+    },
+    {
+      "id": "part_guard",
+      "label": "固定椭圆护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 2,
+      "bounds_mm": [
+        [
+          37.0,
+          -3.0,
+          0.0
+        ],
+        [
+          65.0,
+          3.0,
+          16.99277687072754
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "短顶轨与固定瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 19,
+      "bounds_mm": [
+        [
+          -172.5,
+          -4.300000190734863,
+          31.850000381469727
+        ],
+        [
+          52.0,
+          4.300000190734863,
+          41.099998474121094
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选望远瞄具",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 11,
+      "bounds_mm": [
+        [
+          -10.77500057220459,
+          -8.25,
+          38.29999923706055
+        ],
+        [
+          55.25,
+          7.038597106933594,
+          58.25
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -175.1699981689453,
+      -12.800000190734863,
+      -16.846607208251953
+    ],
+    [
+      175.0,
+      10.290030479431152,
+      41.099998474121094
+    ]
+  ],
+  "mesh_count": 278,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

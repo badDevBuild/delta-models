@@ -1,0 +1,185 @@
+{
+  "id": "svd",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 380.061,
+  "source_urls": [
+    "https://zilliongamer.com/delta-force/c/weapons/best-svd-build-delta-force",
+    "https://zilliongamer.com/uploads/delta-force/weapons-builds/marksman-rifle/svd/svd-delta-force-build.jpg"
+  ],
+  "approximation": [
+    "已实际查看游戏基础截图：木色双开孔枪托、木护木、短外露前端和短弹匣；默认不含光学瞄具。",
+    "尺寸为380mm桌面微缩雕塑设计值，不来源于真实武器尺寸；隐藏侧、顶部、细小五金及木纹位置为艺术推断。",
+    "可选瞄具是独立外观装饰，其封闭镜片和实心支座没有功能性内部结构或真实接口。",
+    "木纹细线为网页显示保留，打印时跳过；实体基础款整体融合后平面胶合。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "封闭机匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 34,
+      "bounds_mm": [
+        [
+          -18.0,
+          -9.0600004196167,
+          7.0
+        ],
+        [
+          97.86200714111328,
+          9.0600004196167,
+          33.900001525878906
+        ]
+      ]
+    },
+    {
+      "id": "part_top_cover",
+      "label": "机匣上盖外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 24,
+      "bounds_mm": [
+        [
+          -30.8476619720459,
+          -7.75,
+          30.0
+        ],
+        [
+          95.66993713378906,
+          7.75,
+          42.099998474121094
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "木色护木",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 95,
+      "bounds_mm": [
+        [
+          -125.80000305175781,
+          -8.199999809265137,
+          11.5
+        ],
+        [
+          -15.75,
+          8.199999809265137,
+          34.5
+        ]
+      ]
+    },
+    {
+      "id": "part_front",
+      "label": "封闭前端和机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 16,
+      "bounds_mm": [
+        [
+          -190.0749969482422,
+          -5.0,
+          20.75
+        ],
+        [
+          -113.0,
+          4.139999866485596,
+          41.92723846435547
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "木色开孔枪托",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 91,
+      "bounds_mm": [
+        [
+          82.02786254882812,
+          -8.550000190734863,
+          -22.0
+        ],
+        [
+          189.9863739013672,
+          8.550000190734863,
+          22.85447883605957
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "实心短弹匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 16,
+      "bounds_mm": [
+        [
+          0.04987293854355812,
+          -7.200000286102295,
+          -25.943431854248047
+        ],
+        [
+          31.0,
+          7.200000286102295,
+          12.975876808166504
+        ]
+      ]
+    },
+    {
+      "id": "part_controls",
+      "label": "固定操控件外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 7,
+      "bounds_mm": [
+        [
+          31.75,
+          -15.75,
+          -12.0
+        ],
+        [
+          84.5,
+          9.449999809265137,
+          25.399999618530273
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选望远瞄具装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 44,
+      "bounds_mm": [
+        [
+          -6.800000190734863,
+          -12.899999618530273,
+          20.0
+        ],
+        [
+          93.2249984741211,
+          6.800000190734863,
+          62.5
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -190.0749969482422,
+      -15.75,
+      -25.943431854248047
+    ],
+    [
+      189.9863739013672,
+      9.449999809265137,
+      42.099998474121094
+    ]
+  ],
+  "mesh_count": 327,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

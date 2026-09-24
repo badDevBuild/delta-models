@@ -1,0 +1,205 @@
+{
+  "id": "mp5",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 196.21,
+  "source_urls": [
+    "https://zilliongamer.com/delta-force/c/weapons/best-mp5-build-delta-force",
+    "https://zilliongamer.com/uploads/delta-force/weapons-builds/submachine-gun/mp5/mp5-delta-force.jpg",
+    "https://deltaforcedb.com/assets/images/weapons/mp5.webp"
+  ],
+  "approximation": [
+    "实际查看 780×408 游戏基础侧视图：固定黑色宽枪托、宽光面护木、圆弧上机匣、顶部导轨和长弯弹匣。",
+    "背面、顶部、底部和纹理密度依据可见轮廓做艺术推断；商标及文字以抽象短纹替代。",
+    "约 198 mm 实心微缩外观雕塑；前端封闭，扳机与控制件固定，数字外观组不提供真实安装接口。",
+    "可选微型瞄具为独立数字装饰。首版实体打印仅基础配置，按整体融合后左右胶合分件。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "冲压机匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 73,
+      "bounds_mm": [
+        [
+          -30.5,
+          -6.820000171661377,
+          -9.0
+        ],
+        [
+          35.60000228881836,
+          6.820000171661377,
+          12.75
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "宽护木外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 31,
+      "bounds_mm": [
+        [
+          -81.5,
+          -8.199999809265137,
+          -7.599999904632568
+        ],
+        [
+          -27.106718063354492,
+          8.199999809265137,
+          11.75
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "固定聚合物枪托",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 35,
+      "bounds_mm": [
+        [
+          33.400001525878906,
+          -8.800000190734863,
+          -27.739994049072266
+        ],
+        [
+          98.12999725341797,
+          8.800000190734863,
+          10.885431289672852
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "握把与固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 183,
+      "bounds_mm": [
+        [
+          -21.884920120239258,
+          -7.230000019073486,
+          -50.647544860839844
+        ],
+        [
+          38.696556091308594,
+          7.230000019073486,
+          -6.0
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "弧形实心弹匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 16,
+      "bounds_mm": [
+        [
+          -39.49730682373047,
+          -5.800000190734863,
+          -68.63850402832031
+        ],
+        [
+          -12.12924861907959,
+          5.800000190734863,
+          -18.0
+        ]
+      ]
+    },
+    {
+      "id": "part_muzzle",
+      "label": "封闭短前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 6,
+      "bounds_mm": [
+        [
+          -98.08000183105469,
+          -3.299999952316284,
+          -3.299999952316284
+        ],
+        [
+          -78.29999542236328,
+          3.299999952316284,
+          3.299999952316284
+        ]
+      ]
+    },
+    {
+      "id": "part_front_sight",
+      "label": "前环形固定瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          -85.0,
+          -5.199999809265137,
+          -5.0
+        ],
+        [
+          -79.9000015258789,
+          5.199999809265137,
+          21.75
+        ]
+      ]
+    },
+    {
+      "id": "part_rear_sight",
+      "label": "后固定瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 9,
+      "bounds_mm": [
+        [
+          19.0,
+          -4.910000324249268,
+          10.300000190734863
+        ],
+        [
+          29.0,
+          4.910000324249268,
+          16.5
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选微型瞄具装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 12,
+      "bounds_mm": [
+        [
+          -7.25,
+          -5.300000190734863,
+          12.300000190734863
+        ],
+        [
+          7.25,
+          5.300000190734863,
+          27.0
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -98.08000183105469,
+      -8.800000190734863,
+      -68.63850402832031
+    ],
+    [
+      98.12999725341797,
+      8.800000190734863,
+      21.75
+    ]
+  ],
+  "mesh_count": 370,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

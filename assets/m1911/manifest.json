@@ -1,0 +1,185 @@
+{
+  "id": "m1911",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 85.44,
+  "source_urls": [
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops",
+    "https://www.imfdb.org/images/thumb/a/a3/DFHO_M1911.jpg/600px-DFHO_M1911.jpg"
+  ],
+  "approximation": [
+    "保留游戏黑色纤细上壳、前后斜纹、橄榄棕格纹双侧握把、薄护圈与后方固定环状装饰轮廓。",
+    "握把菱纹为几何浅浮雕；光学附件为自定缩比外观，底座贴合上壳。",
+    "依据游戏默认双侧截图独立缩比重建；无资源提取，未复刻商标。顶部、隐藏面和细小材质为艺术推断。",
+    "实心非功能外观雕塑；前端封闭，无内构、实际尺寸或可用接口；可选附件仅用于数字外观展示。"
+  ],
+  "parts": [
+    {
+      "id": "part_frame",
+      "label": "纤细下框与固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 4,
+      "bounds_mm": [
+        [
+          -40.81394958496094,
+          -5.75,
+          -28.0
+        ],
+        [
+          42.4402961730957,
+          5.75,
+          22.600000381469727
+        ]
+      ]
+    },
+    {
+      "id": "part_slide",
+      "label": "斜纹上壳外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 6,
+      "bounds_mm": [
+        [
+          -43.0,
+          -5.940000057220459,
+          22.5
+        ],
+        [
+          31.0,
+          6.025000095367432,
+          33.189998626708984
+        ]
+      ]
+    },
+    {
+      "id": "part_front",
+      "label": "封闭前端与短下颏",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 3,
+      "bounds_mm": [
+        [
+          -42.84000015258789,
+          -4.349999904632568,
+          17.100000381469727
+        ],
+        [
+          -37.45000076293945,
+          4.349999904632568,
+          32.349998474121094
+        ]
+      ]
+    },
+    {
+      "id": "part_grip_panels",
+      "label": "橄榄棕格纹握把面板",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 206,
+      "bounds_mm": [
+        [
+          17.0,
+          -6.810000419616699,
+          -25.0
+        ],
+        [
+          37.847965240478516,
+          6.810000419616699,
+          14.0
+        ]
+      ]
+    },
+    {
+      "id": "part_base",
+      "label": "实心握把底缘",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 1,
+      "bounds_mm": [
+        [
+          20.171695709228516,
+          -6.25,
+          -30.0
+        ],
+        [
+          41.7757568359375,
+          6.25,
+          -27.0
+        ]
+      ]
+    },
+    {
+      "id": "part_controls",
+      "label": "固定侧面操控装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 22,
+      "bounds_mm": [
+        [
+          5.0,
+          -6.150000095367432,
+          5.09227991104126
+        ],
+        [
+          38.88218307495117,
+          6.150000095367432,
+          27.87841033935547
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "低矮机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 4,
+      "bounds_mm": [
+        [
+          -40.95000076293945,
+          -3.0,
+          32.0
+        ],
+        [
+          30.876129150390625,
+          3.0,
+          35.91511154174805
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选微型光学装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 6,
+      "bounds_mm": [
+        [
+          3.9600000381469727,
+          -3.6540000438690186,
+          33.06999969482422
+        ],
+        [
+          14.039999961853027,
+          3.1500000953674316,
+          41.88999938964844
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -43.0,
+      -6.810000419616699,
+      -30.0
+    ],
+    [
+      42.4402961730957,
+      6.810000419616699,
+      35.91511154174805
+    ]
+  ],
+  "mesh_count": 252,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

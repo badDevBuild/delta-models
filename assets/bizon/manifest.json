@@ -1,0 +1,186 @@
+{
+  "id": "bizon",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 219.1,
+  "source_urls": [
+    "https://zilliongamer.com/delta-force/c/weapons/best-bizon-build-delta-force",
+    "https://zilliongamer.com/uploads/delta-force/weapons-builds/submachine-gun/bizon/bizon-delta-force-build.jpg"
+  ],
+  "approximation": [
+    "默认图可见：四个短椭圆护木侧孔的明暗外观、圆弧顶机匣、下置长圆筒外形、倾斜黑握把和三角骨架托。圆筒仅填满的装饰形体。",
+    "已于 2026-09-22 实际查看游戏基础配置截图；几何为独立艺术重建，未提取游戏资产。",
+    "隐藏面、截面厚度和细纹为艺术推断，文字和商标以抽象装饰替代；尺寸仅微缩雕塑设计尺寸。",
+    "实心封闭前端，无内部机构、膛室或真实接口。扳机/控制件为固定外观，网页拆装仅分组显示。",
+    "数字瞄具为可切换的艺术装饰；实体分件仅默认配置，按整体融合后左右胶合，当前未实机打印。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "圆弧顶冲压外壳",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 55,
+      "bounds_mm": [
+        [
+          -26.0,
+          -8.010000228881836,
+          -5.0
+        ],
+        [
+          44.0,
+          8.010000228881836,
+          23.44999885559082
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "短护木与浅通风纹",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 32,
+      "bounds_mm": [
+        [
+          -87.0,
+          -8.8100004196167,
+          3.0
+        ],
+        [
+          -21.086824417114258,
+          8.8100004196167,
+          23.599998474121094
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "三角骨架托外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 14,
+      "bounds_mm": [
+        [
+          41.5,
+          -6.660000324249268,
+          -20.843107223510742
+        ],
+        [
+          109.0,
+          6.660000324249268,
+          13.5
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "倾斜握把及固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 31,
+      "bounds_mm": [
+        [
+          0.022717000916600227,
+          -7.110000133514404,
+          -36.673431396484375
+        ],
+        [
+          46.800445556640625,
+          7.110000133514404,
+          -3.0
+        ]
+      ]
+    },
+    {
+      "id": "part_cylinder",
+      "label": "实心圆筒装饰体",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 21,
+      "bounds_mm": [
+        [
+          -87.45000457763672,
+          -9.199999809265137,
+          -13.0
+        ],
+        [
+          3.5,
+          9.199999809265137,
+          5.400000095367432
+        ]
+      ]
+    },
+    {
+      "id": "part_muzzle",
+      "label": "封闭细前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 4,
+      "bounds_mm": [
+        [
+          -110.0999984741211,
+          -2.5999999046325684,
+          9.59999942779541
+        ],
+        [
+          -84.0,
+          2.5999999046325684,
+          14.800000190734863
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "固定前后瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          -88.1500015258789,
+          -8.300000190734863,
+          2.6000003814697266
+        ],
+        [
+          -11.138300895690918,
+          8.300000190734863,
+          31.5
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选数字微型瞄具",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 6,
+      "bounds_mm": [
+        [
+          6.5,
+          -4.75,
+          23.5
+        ],
+        [
+          19.5,
+          4.75,
+          37.0
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -110.0999984741211,
+      -9.199999809265137,
+      -36.673431396484375
+    ],
+    [
+      109.0,
+      9.199999809265137,
+      31.5
+    ]
+  ],
+  "mesh_count": 168,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

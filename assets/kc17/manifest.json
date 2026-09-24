@@ -1,0 +1,204 @@
+{
+  "id": "kc17",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 299.86,
+  "source_urls": [
+    "https://www.imfdb.org/images/thumb/0/0b/DFHO_AM17.jpg/600px-DFHO_AM17.jpg",
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops"
+  ],
+  "approximation": [
+    "依据 KC17 对应游戏 AM17 双侧图重建紧凑一体上壳、长条盲槽护木、突出静态侧钮、格纹长弧匣及三角伸缩外观尾托。",
+    "2026-09-22 实际查看游戏外观参考；轮廓独立重建，宽度、遮蔽面与细小纹理为艺术推断。",
+    "微缩实心外观雕塑；封闭前端，无膛室、内部机构、通孔或真实安装接口。网页分组仅作外观拆装。",
+    "可选光学装饰默认隐藏，只供数字展示；没有提取游戏网格或贴图，发布者声明可按 CC BY-NC 4.0 非商业再分发。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "折面机匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 30,
+      "bounds_mm": [
+        [
+          -53.0,
+          -13.0,
+          13.0
+        ],
+        [
+          63.958892822265625,
+          13.0,
+          36.0
+        ]
+      ]
+    },
+    {
+      "id": "part_lower",
+      "label": "下部机匣与固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 9,
+      "bounds_mm": [
+        [
+          -48.92537307739258,
+          -9.949999809265137,
+          -15.0
+        ],
+        [
+          61.932098388671875,
+          9.949999809265137,
+          22.993181228637695
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "护木外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 39,
+      "bounds_mm": [
+        [
+          -124.0,
+          -10.40999984741211,
+          13.350000381469727
+        ],
+        [
+          -49.07584762573242,
+          10.40999984741211,
+          37.349998474121094
+        ]
+      ]
+    },
+    {
+      "id": "part_front",
+      "label": "封闭前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 6,
+      "bounds_mm": [
+        [
+          -149.15000915527344,
+          -4.150000095367432,
+          20.850000381469727
+        ],
+        [
+          -124.0,
+          4.150000095367432,
+          29.149999618530273
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "实心弹匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 61,
+      "bounds_mm": [
+        [
+          -54.754241943359375,
+          -7.350000381469727,
+          -58.807552337646484
+        ],
+        [
+          -0.13390670716762543,
+          7.350000381469727,
+          11.925494194030762
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "斜握把外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 29,
+      "bounds_mm": [
+        [
+          33.12837600708008,
+          -7.510000228881836,
+          -32.72591781616211
+        ],
+        [
+          66.63469696044922,
+          7.510000228881836,
+          10.933481216430664
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "枪托外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 24,
+      "bounds_mm": [
+        [
+          58.5,
+          -10.0,
+          -9.0
+        ],
+        [
+          150.7100067138672,
+          10.0,
+          34.5
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "顶部脊与机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 52,
+      "bounds_mm": [
+        [
+          -123.0,
+          -4.0,
+          36.32500076293945
+        ],
+        [
+          52.0,
+          4.0,
+          50.0
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选紧凑瞄具",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 8,
+      "bounds_mm": [
+        [
+          -7.825000286102295,
+          -7.299999713897705,
+          36.900001525878906
+        ],
+        [
+          17.825000762939453,
+          6.349999904632568,
+          52.849998474121094
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -149.15000915527344,
+      -13.0,
+      -58.807552337646484
+    ],
+    [
+      150.7100067138672,
+      13.0,
+      50.0
+    ]
+  ],
+  "mesh_count": 258,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

@@ -1,0 +1,222 @@
+{
+  "id": "m4a1",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 300.0,
+  "source_urls": [
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops",
+    "https://www.imfdb.org/images/thumb/1/1c/DFHO_M4.jpg/600px-DFHO_M4.jpg"
+  ],
+  "approximation": [
+    "以实际查看的游戏默认双侧截图为主：长四面纹路护木、平顶机匣、窄露出前端、弧形黑弹匣与带长颈的三角枪托。",
+    "截图透视与像素限制下，宽度、倒角、隐藏面及细纹为独立艺术推断；无游戏提取网格或纹理、无品牌标识。",
+    "实心微缩外观，无功能内构、膛孔或真实适配接口；网页组件是外观分组。可选红点是艺术化数字配件。"
+  ],
+  "parts": [
+    {
+      "id": "part_upper",
+      "label": "上机匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 42,
+      "bounds_mm": [
+        [
+          -25.0,
+          -8.559999465942383,
+          10.0
+        ],
+        [
+          56.87272262573242,
+          11.5,
+          36.75
+        ]
+      ]
+    },
+    {
+      "id": "part_lower",
+      "label": "下机匣与固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 46,
+      "bounds_mm": [
+        [
+          -21.9456787109375,
+          -9.380000114440918,
+          -13.0
+        ],
+        [
+          56.851531982421875,
+          9.380000114440918,
+          14.0
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "四面纹路护木外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 222,
+      "bounds_mm": [
+        [
+          -120.0,
+          -10.5600004196167,
+          10.75
+        ],
+        [
+          -24.0,
+          10.5600004196167,
+          36.75
+        ]
+      ]
+    },
+    {
+      "id": "part_barrel",
+      "label": "封闭前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 8,
+      "bounds_mm": [
+        [
+          -150.0,
+          -4.199999809265137,
+          19.799999237060547
+        ],
+        [
+          -114.0,
+          4.199999809265137,
+          28.200000762939453
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "弧形弹匣外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 26,
+      "bounds_mm": [
+        [
+          -33.8275260925293,
+          -7.140005588531494,
+          -64.8794174194336
+        ],
+        [
+          7.0,
+          7.140005588531494,
+          -4.082319259643555
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "握把外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 106,
+      "bounds_mm": [
+        [
+          36.21839904785156,
+          -7.789999961853027,
+          -44.87873077392578
+        ],
+        [
+          67.82640838623047,
+          7.789999961853027,
+          2.8175313472747803
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "三角枪托外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 67,
+      "bounds_mm": [
+        [
+          50.5,
+          -9.649999618530273,
+          -23.805973052978516
+        ],
+        [
+          150.0,
+          9.649999618530273,
+          31.805973052978516
+        ]
+      ]
+    },
+    {
+      "id": "part_front_sight",
+      "label": "前瞄具装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          -114.75,
+          -5.100000381469727,
+          35.20000076293945
+        ],
+        [
+          -107.25,
+          4.5,
+          52.0
+        ]
+      ]
+    },
+    {
+      "id": "part_rear_sight",
+      "label": "后瞄具装饰",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          32.25,
+          -5.100000381469727,
+          35.20000076293945
+        ],
+        [
+          39.75,
+          4.5,
+          52.0
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选红点装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 9,
+      "bounds_mm": [
+        [
+          0.0,
+          -5.610000133514404,
+          36.70000076293945
+        ],
+        [
+          16.0,
+          5.610000133514404,
+          56.0
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -150.0,
+      -10.5600004196167,
+      -64.8794174194336
+    ],
+    [
+      150.0,
+      11.5,
+      52.0
+    ]
+  ],
+  "mesh_count": 536,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

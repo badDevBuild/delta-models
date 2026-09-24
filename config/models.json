@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "physicalPrintDeferred": true,
+  "models": [
+    {
+      "id": "m7",
+      "name": "M7",
+      "category": "战斗步枪",
+      "lengthMm": 300,
+      "batch": 1,
+      "description": "长护木、骨架枪托与可切换配件"
+    },
+    {
+      "id": "akm",
+      "name": "AKM",
+      "category": "突击步枪",
+      "lengthMm": 294,
+      "batch": 1,
+      "description": "木质护木、整托与弯曲弹匣轮廓"
+    },
+    {
+      "id": "p90",
+      "name": "P90",
+      "category": "冲锋枪",
+      "lengthMm": 170,
+      "batch": 1,
+      "description": "紧凑一体外壳与横置弹匣轮廓"
+    },
+    {
+      "id": "awm",
+      "name": "AWM",
+      "category": "狙击步枪",
+      "lengthMm": 390,
+      "batch": 1,
+      "description": "橄榄色拇指孔托与长瞄具外观"
+    },
+    {
+      "id": "m870",
+      "name": "M870",
+      "category": "霰弹枪",
+      "lengthMm": 330,
+      "batch": 1,
+      "description": "木质泵动护木与传统整托外观"
+    },
+    {
+      "id": "g18",
+      "name": "G18",
+      "category": "手枪",
+      "lengthMm": 70,
+      "batch": 1,
+      "description": "紧凑黑色滑套与纹理握把外观"
+    },
+    {
+      "id": "m4a1",
+      "name": "M4A1",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 2,
+      "description": "模块化外壳、护木与伸缩尾托轮廓"
+    },
+    {
+      "id": "scarh",
+      "name": "SCAR-H",
+      "category": "战斗步枪",
+      "lengthMm": 300,
+      "batch": 2,
+      "description": "宽厚上机匣、分层色块与折叠尾托外观"
+    },
+    {
+      "id": "mp5",
+      "name": "MP5",
+      "category": "冲锋枪",
+      "lengthMm": 198,
+      "batch": 2,
+      "description": "紧凑管状机匣、环形瞄具与弧形弹匣外观"
+    },
+    {
+      "id": "vector",
+      "name": "Vector",
+      "category": "冲锋枪",
+      "lengthMm": 190,
+      "batch": 2,
+      "description": "折线式壳体、垂直弹匣与紧凑前端"
+    },
+    {
+      "id": "svd",
+      "name": "SVD",
+      "category": "狙击步枪",
+      "lengthMm": 380,
+      "batch": 2,
+      "description": "细长前端、镂空尾托与侧置瞄具轮廓"
+    },
+    {
+      "id": "m249",
+      "name": "M249",
+      "category": "轻机枪",
+      "lengthMm": 320,
+      "batch": 2,
+      "description": "宽大机匣、实心弹箱外观与携行提把"
+    },
+    {
+      "id": "ak12",
+      "name": "AK-12",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 3,
+      "description": "现代折叠托、分层护木与弯曲弹匣外观"
+    },
+    {
+      "id": "aug",
+      "name": "AUG",
+      "category": "突击步枪",
+      "lengthMm": 280,
+      "batch": 3,
+      "description": "无托式轮廓、后置弹匣与整体聚合物壳体"
+    },
+    {
+      "id": "asval",
+      "name": "AS Val",
+      "category": "突击步枪",
+      "lengthMm": 290,
+      "batch": 3,
+      "description": "粗长封闭前端、骨架尾托与短护木外观"
+    },
+    {
+      "id": "k416",
+      "name": "K416",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 3,
+      "description": "短四面护木、分层机匣与宽厚尾托外观"
+    },
+    {
+      "id": "mp7",
+      "name": "MP7",
+      "category": "冲锋枪",
+      "lengthMm": 170,
+      "batch": 3,
+      "description": "紧凑矩形外壳、中央握把与细杆尾托"
+    },
+    {
+      "id": "uzi",
+      "name": "UZI",
+      "category": "冲锋枪",
+      "lengthMm": 160,
+      "batch": 3,
+      "description": "方盒式机匣、握把式弹匣与木制固定枪托"
+    },
+    {
+      "id": "bizon",
+      "name": "野牛",
+      "category": "冲锋枪",
+      "lengthMm": 220,
+      "batch": 3,
+      "description": "下置圆筒装饰、紧凑护木与骨架枪托"
+    },
+    {
+      "id": "thompson",
+      "name": "汤姆逊",
+      "category": "冲锋枪",
+      "lengthMm": 280,
+      "batch": 3,
+      "description": "经典长机匣、木质护木与弧线尾托"
+    },
+    {
+      "id": "m14",
+      "name": "M14",
+      "category": "射手步枪",
+      "lengthMm": 340,
+      "batch": 3,
+      "description": "传统长托、上部金属层次与直身弹匣"
+    },
+    {
+      "id": "sks",
+      "name": "SKS",
+      "category": "射手步枪",
+      "lengthMm": 350,
+      "batch": 3,
+      "description": "连贯木质长托与细长金属前端"
+    },
+    {
+      "id": "m1014",
+      "name": "M1014",
+      "category": "霰弹枪",
+      "lengthMm": 300,
+      "batch": 3,
+      "description": "上下并行前端、分段护木与黑色固定整托"
+    },
+    {
+      "id": "desert_eagle",
+      "name": "沙漠之鹰",
+      "category": "手枪",
+      "lengthMm": 90,
+      "batch": 3,
+      "description": "宽厚棱面上壳、分层前端与纹理握把"
+    },
+    {
+      "id": "aks74u",
+      "name": "AKS-74U",
+      "category": "突击步枪",
+      "lengthMm": 230,
+      "batch": 4,
+      "description": "短护木、折线机匣与金属骨架枪托"
+    },
+    {
+      "id": "m16a4",
+      "name": "M16A4",
+      "category": "突击步枪",
+      "lengthMm": 330,
+      "batch": 4,
+      "description": "长护木、提把轮廓与固定整托"
+    },
+    {
+      "id": "g3",
+      "name": "G3",
+      "category": "战斗步枪",
+      "lengthMm": 340,
+      "batch": 4,
+      "description": "细长机匣、聚合物护木与直身弹匣"
+    },
+    {
+      "id": "qbz95",
+      "name": "QBZ95-1",
+      "category": "突击步枪",
+      "lengthMm": 270,
+      "batch": 4,
+      "description": "高提把、无托式机身与后置弹匣"
+    },
+    {
+      "id": "smg45",
+      "name": "SMG-45",
+      "category": "冲锋枪",
+      "lengthMm": 230,
+      "batch": 4,
+      "description": "长条护木、细长弧形弹匣与镂空三角尾托"
+    },
+    {
+      "id": "sr3m",
+      "name": "SR-3M",
+      "category": "冲锋枪",
+      "lengthMm": 230,
+      "batch": 4,
+      "description": "短轨护木、前握把与双杆骨架枪托"
+    },
+    {
+      "id": "m1911",
+      "name": "M1911",
+      "category": "手枪",
+      "lengthMm": 85,
+      "batch": 4,
+      "description": "黑色斜纹滑套与橄榄棕格纹握把"
+    },
+    {
+      "id": "revolver357",
+      "name": ".357 左轮",
+      "category": "手枪",
+      "lengthMm": 100,
+      "batch": 4,
+      "description": "银灰长前端、实心圆筒与木棕弯曲握把"
+    },
+    {
+      "id": "m700",
+      "name": "M700",
+      "category": "狙击步枪",
+      "lengthMm": 350,
+      "batch": 4,
+      "description": "细长金属前端与传统长托轮廓"
+    },
+    {
+      "id": "sv98",
+      "name": "SV-98",
+      "category": "狙击步枪",
+      "lengthMm": 350,
+      "batch": 4,
+      "description": "螺旋浅纹前杆、金属底盘与可调骨架托"
+    },
+    {
+      "id": "pkm",
+      "name": "PKM",
+      "category": "轻机枪",
+      "lengthMm": 330,
+      "batch": 4,
+      "description": "长机匣、绿色侧盒与木制镂空枪托"
+    },
+    {
+      "id": "s12k",
+      "name": "S12K",
+      "category": "霰弹枪",
+      "lengthMm": 300,
+      "batch": 4,
+      "description": "带槽方护木、短斜匣与黑色固定整托"
+    },
+    {
+      "id": "ar57",
+      "name": "AR57",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "顶置烟棕长匣、点纹护木与分段窄尾托"
+    },
+    {
+      "id": "ash12",
+      "name": "ASh-12",
+      "category": "战斗步枪",
+      "lengthMm": 280,
+      "batch": 5,
+      "description": "宽扁无托机身、高提把与前置握把"
+    },
+    {
+      "id": "car15",
+      "name": "CAR-15",
+      "category": "突击步枪",
+      "lengthMm": 270,
+      "batch": 5,
+      "description": "短圆肋护木、高提把与细长后托"
+    },
+    {
+      "id": "ci19",
+      "name": "腾龙（CI-19）",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "长前杆、短肋护木与长弧格纹匣"
+    },
+    {
+      "id": "k437",
+      "name": "K437",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "宽折面上壳、斜槽护木与交叉纹匣"
+    },
+    {
+      "id": "kc17",
+      "name": "KC17",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "一体上壳、长条护木盲槽与长弧匣"
+    },
+    {
+      "id": "mcxlt",
+      "name": "MCX LT",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "短护木、直格纹匣与细杆开窗托；背面含推断"
+    },
+    {
+      "id": "mdr",
+      "name": "MDR",
+      "category": "突击步枪",
+      "lengthMm": 280,
+      "batch": 5,
+      "description": "沙色无托轮廓、短前端与后置方匣"
+    },
+    {
+      "id": "mk47",
+      "name": "MK47",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "长槽护木、短弯格纹匣与三角尾托"
+    },
+    {
+      "id": "ptr32",
+      "name": "PTR-32",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "棕木窄护木、长弧压纹匣与黑色整托"
+    },
+    {
+      "id": "rm277",
+      "name": "RM277",
+      "category": "战斗步枪",
+      "lengthMm": 290,
+      "batch": 5,
+      "description": "沙色长无托机身；参考展示配置重建"
+    },
+    {
+      "id": "sg552",
+      "name": "SG552",
+      "category": "突击步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "圆点护木、短斜匣与宽三角托"
+    },
+    {
+      "id": "mk4",
+      "name": "MK4",
+      "category": "冲锋枪",
+      "lengthMm": 230,
+      "batch": 5,
+      "description": "紧凑上壳、细长直匣；默认细节含推断"
+    },
+    {
+      "id": "qcq171",
+      "name": "QCQ171",
+      "category": "冲锋枪",
+      "lengthMm": 230,
+      "batch": 5,
+      "description": "短方护木、弧匣与银灰双杆托"
+    },
+    {
+      "id": "vityaz",
+      "name": "勇士",
+      "category": "冲锋枪",
+      "lengthMm": 240,
+      "batch": 5,
+      "description": "短黑护木、细长弧匣与三角骨架托"
+    },
+    {
+      "id": "m250",
+      "name": "M250",
+      "category": "轻机枪",
+      "lengthMm": 330,
+      "batch": 5,
+      "description": "沙色长护木、织物方盒与折叠双杆"
+    },
+    {
+      "id": "qjb201",
+      "name": "QJB201",
+      "category": "轻机枪",
+      "lengthMm": 330,
+      "batch": 5,
+      "description": "黑色阶梯机身、绿软盒与三角框托"
+    },
+    {
+      "id": "mini14",
+      "name": "Mini-14",
+      "category": "射手步枪",
+      "lengthMm": 320,
+      "batch": 5,
+      "description": "棕木连体前床、整托与细长前杆"
+    },
+    {
+      "id": "psg1",
+      "name": "PSG-1",
+      "category": "射手步枪",
+      "lengthMm": 350,
+      "batch": 5,
+      "description": "长楔形护木、棕掌托握把与方形贴腮托"
+    },
+    {
+      "id": "sr25",
+      "name": "SR-25",
+      "category": "射手步枪",
+      "lengthMm": 330,
+      "batch": 5,
+      "description": "长矩形护木、短直匣与固定黑色整托"
+    },
+    {
+      "id": "sr9",
+      "name": "SR9",
+      "category": "射手步枪",
+      "lengthMm": 330,
+      "batch": 5,
+      "description": "暗绿长圆护木、拇指孔整托与短直匣"
+    },
+    {
+      "id": "svch",
+      "name": "SVCH",
+      "category": "射手步枪",
+      "lengthMm": 330,
+      "batch": 5,
+      "description": "宣传配置重建：前握框与骨架托，默认配置未确认"
+    },
+    {
+      "id": "vss",
+      "name": "VSS",
+      "category": "射手步枪",
+      "lengthMm": 300,
+      "batch": 5,
+      "description": "粗圆前端、短竖纹护木与木色双镂空托"
+    },
+    {
+      "id": "marlin",
+      "name": "杠杆式步枪（Marlin）",
+      "category": "杠杆步枪",
+      "lengthMm": 320,
+      "batch": 5,
+      "description": "黑色弯颈整托、双前杆与大环装饰"
+    },
+    {
+      "id": "m82",
+      "name": "M82",
+      "category": "狙击步枪",
+      "lengthMm": 360,
+      "batch": 5,
+      "description": "长箱形上壳、封闭前块与折叠双杆"
+    },
+    {
+      "id": "r93",
+      "name": "R93",
+      "category": "狙击步枪",
+      "lengthMm": 350,
+      "batch": 5,
+      "description": "精密整托、长细前杆与高贴腮面"
+    },
+    {
+      "id": "shotgun725",
+      "name": "725",
+      "category": "霰弹枪",
+      "lengthMm": 330,
+      "batch": 5,
+      "description": "长双前杆、银灰短机身与弯颈木托"
+    },
+    {
+      "id": "fs12",
+      "name": "FS-12",
+      "category": "霰弹枪",
+      "lengthMm": 280,
+      "batch": 5,
+      "description": "银灰斜肩机身、双前杆；尾托细节含推断"
+    },
+    {
+      "id": "pistol93r",
+      "name": "93R",
+      "category": "手枪",
+      "lengthMm": 90,
+      "batch": 5,
+      "description": "上部凹面、实心金属脊与后斜纹"
+    },
+    {
+      "id": "g17",
+      "name": "G17",
+      "category": "手枪",
+      "lengthMm": 80,
+      "batch": 5,
+      "description": "平直滑套、后直纹与斜握把点纹"
+    },
+    {
+      "id": "qsz92g",
+      "name": "QSZ92G",
+      "category": "手枪",
+      "lengthMm": 80,
+      "batch": 5,
+      "description": "前斜切滑套、后斜纹与近直立握把"
+    }
+  ],
+  "inventoryScope": {
+    "asOf": "2026-09-22",
+    "scope": "国服跨模式基础枪型工作清单，去重别名，不含弓、近战、皮肤和特殊技能装备",
+    "workingCount": 67,
+    "officialTotalVerified": false,
+    "evidence": "research/remaining-roster-2026-09-22.md"
+  }
+}

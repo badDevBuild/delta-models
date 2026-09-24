@@ -1,0 +1,204 @@
+{
+  "id": "ar57",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 299.65,
+  "source_urls": [
+    "https://img.gamewith.jp/article/thumbnail/rectangle/556174.png?date=1776335208",
+    "https://gamewith.jp/deltaforce/556174"
+  ],
+  "approximation": [
+    "依据 AR57 默认游戏大图重建顶置烟棕长匣、长排圆点护木、无下垂弹匣的封闭底框、短贴腮块与分段窄尾托；顶置匣为实心不透明艺术件。",
+    "2026-09-22 实际查看游戏外观参考；轮廓独立重建，宽度、遮蔽面与细小纹理为艺术推断。",
+    "微缩实心外观雕塑；封闭前端，无膛室、内部机构、通孔或真实安装接口。网页分组仅作外观拆装。",
+    "可选光学装饰默认隐藏，只供数字展示；没有提取游戏网格或贴图，发布者声明可按 CC BY-NC 4.0 非商业再分发。"
+  ],
+  "parts": [
+    {
+      "id": "part_receiver",
+      "label": "短后部上机匣",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 25,
+      "bounds_mm": [
+        [
+          -32.89616012573242,
+          -10.40999984741211,
+          15.0
+        ],
+        [
+          62.95012664794922,
+          10.72499942779541,
+          36.400001525878906
+        ]
+      ]
+    },
+    {
+      "id": "part_lower",
+      "label": "封闭下框与固定护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 20,
+      "bounds_mm": [
+        [
+          -32.919376373291016,
+          -9.899999618530273,
+          -18.0
+        ],
+        [
+          61.95014572143555,
+          9.899999618530273,
+          20.0
+        ]
+      ]
+    },
+    {
+      "id": "part_handguard",
+      "label": "长排圆点护木",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 119,
+      "bounds_mm": [
+        [
+          -140.0,
+          -11.40999984741211,
+          14.850000381469727
+        ],
+        [
+          -21.0,
+          11.40999984741211,
+          35.5
+        ]
+      ]
+    },
+    {
+      "id": "part_front",
+      "label": "封闭短前端",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 2,
+      "bounds_mm": [
+        [
+          -149.15000915527344,
+          -2.5,
+          21.5
+        ],
+        [
+          -131.0,
+          2.5,
+          26.5
+        ]
+      ]
+    },
+    {
+      "id": "part_magazine",
+      "label": "顶置实心长匣",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 44,
+      "bounds_mm": [
+        [
+          -120.8868637084961,
+          -11.5,
+          34.0
+        ],
+        [
+          10.0,
+          11.5,
+          46.0
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "斜纹握把",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 29,
+      "bounds_mm": [
+        [
+          31.128376007080078,
+          -7.510000228881836,
+          -38.72591781616211
+        ],
+        [
+          64.63468933105469,
+          7.510000228881836,
+          4.933481216430664
+        ]
+      ]
+    },
+    {
+      "id": "part_stock",
+      "label": "贴腮与分段尾托",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 14,
+      "bounds_mm": [
+        [
+          59.5,
+          -10.050000190734863,
+          -19.0
+        ],
+        [
+          150.5,
+          10.050000190734863,
+          34.0
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "前后机械瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 21,
+      "bounds_mm": [
+        [
+          -138.5,
+          -6.5,
+          32.5
+        ],
+        [
+          57.0,
+          6.5,
+          50.0
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选紧凑瞄具",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 8,
+      "bounds_mm": [
+        [
+          21.174999237060547,
+          -7.299999713897705,
+          36.0
+        ],
+        [
+          46.82499694824219,
+          6.349999904632568,
+          51.94999694824219
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -149.15000915527344,
+      -11.5,
+      -38.72591781616211
+    ],
+    [
+      150.5,
+      11.5,
+      50.0
+    ]
+  ],
+  "mesh_count": 282,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}

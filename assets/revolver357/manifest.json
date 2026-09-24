@@ -1,0 +1,185 @@
+{
+  "id": "revolver357",
+  "version": "1.0.0",
+  "kind": "nonfunctional_reference_sculpture",
+  "units": "mm",
+  "display_length_mm": 99.897,
+  "source_urls": [
+    "https://www.imfdb.org/wiki/Delta_Force:_Hawk_Ops",
+    "https://www.imfdb.org/images/thumb/b/bf/DFHO_Magnum.jpg/600px-DFHO_Magnum.jpg"
+  ],
+  "approximation": [
+    "依据游戏默认长银灰前端、顶部短槽肋、下颏浅凹、棕色弧形握把及黑色嵌片重建。",
+    "圆筒为不可转动的封闭实心外观体，仅外表浅凹，无弹巢通孔、内部构造和可用接口。少量木纹线作为数字表面色彩，默认融合排除这些细线。",
+    "依据游戏默认双侧截图独立缩比重建；无资源提取，未复刻商标。顶部、隐藏面和细小材质为艺术推断。",
+    "实心非功能外观雕塑；前端封闭，无内构、实际尺寸或可用接口；可选附件仅用于数字外观展示。"
+  ],
+  "parts": [
+    {
+      "id": "part_barrel",
+      "label": "封闭长前端与肋条",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 32,
+      "bounds_mm": [
+        [
+          -50.130001068115234,
+          -4.5,
+          22.200000762939453
+        ],
+        [
+          -4.002504825592041,
+          4.5,
+          37.625
+        ]
+      ]
+    },
+    {
+      "id": "part_frame",
+      "label": "银灰外框",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 13,
+      "bounds_mm": [
+        [
+          -7.0,
+          -6.75,
+          7.0
+        ],
+        [
+          33.78359603881836,
+          6.75,
+          39.39999771118164
+        ]
+      ]
+    },
+    {
+      "id": "part_cylinder",
+      "label": "实心圆筒外观",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 5,
+      "bounds_mm": [
+        [
+          -2.575000524520874,
+          -9.699999809265137,
+          16.5
+        ],
+        [
+          16.049999237060547,
+          9.699999809265137,
+          35.900001525878906
+        ]
+      ]
+    },
+    {
+      "id": "part_grip",
+      "label": "棕木色弧形握把",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 11,
+      "bounds_mm": [
+        [
+          19.321380615234375,
+          -7.054999828338623,
+          -29.0
+        ],
+        [
+          49.767417907714844,
+          7.054999828338623,
+          18.632179260253906
+        ]
+      ]
+    },
+    {
+      "id": "part_inlays",
+      "label": "黑色握把嵌片",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 120,
+      "bounds_mm": [
+        [
+          25.113712310791016,
+          -7.960000038146973,
+          -26.0
+        ],
+        [
+          43.866455078125,
+          7.960000038146973,
+          3.811100721359253
+        ]
+      ]
+    },
+    {
+      "id": "part_controls",
+      "label": "固定操控与护圈",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 11,
+      "bounds_mm": [
+        [
+          -0.983212947845459,
+          -7.130000114440918,
+          -6.0
+        ],
+        [
+          31.72909164428711,
+          7.130000114440918,
+          42.92234802246094
+        ]
+      ]
+    },
+    {
+      "id": "part_sights",
+      "label": "低矮固定瞄具",
+      "variant": "base",
+      "default_visible": true,
+      "meshes": 4,
+      "bounds_mm": [
+        [
+          -48.921913146972656,
+          -3.25,
+          37.0
+        ],
+        [
+          19.75,
+          3.25,
+          42.45000076293945
+        ]
+      ]
+    },
+    {
+      "id": "part_optic",
+      "label": "可选短光学装饰",
+      "variant": "accessory",
+      "default_visible": false,
+      "meshes": 7,
+      "bounds_mm": [
+        [
+          -11.0,
+          -4.176000118255615,
+          37.599998474121094
+        ],
+        [
+          7.0,
+          3.75,
+          49.86000061035156
+        ]
+      ]
+    }
+  ],
+  "bounds_mm": [
+    [
+      -50.130001068115234,
+      -9.699999809265137,
+      -29.0
+    ],
+    [
+      49.767417907714844,
+      9.699999809265137,
+      42.92234802246094
+    ]
+  ],
+  "mesh_count": 203,
+  "rights_status": "publisher_declared_cc_by_nc_4_0"
+}
